@@ -1,0 +1,25 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:plato2"
+    },
+    {
+      "item": "chilean_craft:maizcocido"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:cazuela",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/parrilla_bgpeee",
+  "textures": {
+    "all": "chilean_craft:blocks/anvil_base",
+    "particle": "chilean_craft:blocks/anvil_base",
+    "0": "chilean_craft:blocks/sssssssssssssstonenegra",
+    "1": "chilean_craft:blocks/anvil_base",
+    "2": "chilean_craft:blocks/stripped_oak_log"
+  }
+}

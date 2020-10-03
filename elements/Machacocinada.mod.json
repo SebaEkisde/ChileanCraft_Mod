@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "macha_cocida",
+    "customModelName": "Normal",
+    "name": "Macha cocida",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 0.4,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

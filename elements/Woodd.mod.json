@@ -1,0 +1,14 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Planks_araucaria"
+      }
+    ],
+    "name": "oreDictionary:plankswood",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "Ante"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "<",
+          "x": 259,
+          "y": 191
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Aldeano huaso",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Aldeano huaso",
+          "x": 261,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "El guaton loyola",
+          "onClick": {
+            "name": "Disco2"
+          },
+          "width": 200,
+          "height": 40,
+          "name": "El guaton loyola",
+          "x": 258,
+          "y": 146
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "La consentida",
+          "onClick": {
+            "name": "Disco1"
+          },
+          "width": 200,
+          "height": 40,
+          "name": "La consentida",
+          "x": 259,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x1500 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x1500 pesos",
+          "x": 466,
+          "y": 113
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x1500 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x1500 pesos",
+          "x": 464,
+          "y": 155
+        }
+      }
+    ]
+  }
+}

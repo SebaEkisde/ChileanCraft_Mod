@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:pipa"
+    },
+    "facing=north": {
+      "model": "chilean_craft:pipa"
+    },
+    "facing=east": {
+      "model": "chilean_craft:pipa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:pipa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:pipa",
+      "y": 270
+    }
+  }
+}

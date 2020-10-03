@@ -1,0 +1,107 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Dealer",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Dealer",
+          "x": 261,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Kripi",
+          "onClick": {
+            "name": "Pitocompra"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Kripi",
+          "x": 256,
+          "y": 102
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mentolathum",
+          "onClick": {
+            "name": "Mentolatumcompra"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Mentolathum",
+          "x": 257,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Berlini",
+          "onClick": {
+            "name": "Berlininini"
+          },
+          "width": 140,
+          "height": 40,
+          "name": "Berlini",
+          "x": 257,
+          "y": 189
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x3000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x3000",
+          "x": 363,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x3000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x3000",
+          "x": 408,
+          "y": 200
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x5000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x5000",
+          "x": 422,
+          "y": 156
+        }
+      }
+    ]
+  }
+}

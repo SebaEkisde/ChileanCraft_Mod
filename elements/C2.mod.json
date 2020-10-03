@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "carnecabrasemi",
+    "customModelName": "Normal",
+    "name": "Cabra semi cocinada",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 0.4,
+    "eatingSpeed": 62,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

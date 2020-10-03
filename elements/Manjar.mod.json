@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "anjar",
+    "customModelName": "Normal",
+    "name": "Manjar",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 3,
+    "saturation": 0.4,
+    "eatingSpeed": 23,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

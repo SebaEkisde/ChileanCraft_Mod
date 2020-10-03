@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:stripedarucary"
+    },
+    "facing=south": {
+      "model": "chilean_craft:stripedarucary"
+    },
+    "facing=north": {
+      "model": "chilean_craft:stripedarucary"
+    },
+    "facing=east": {
+      "model": "chilean_craft:stripedarucary",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "chilean_craft:stripedarucary",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "chilean_craft:stripedarucary",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "chilean_craft:stripedarucary",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

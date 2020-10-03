@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/pipa",
+  "textures": {
+    "all": "chilean_craft:blocks/planks_spruce",
+    "particle": "chilean_craft:blocks/planks_spruce",
+    "0": "chilean_craft:blocks/planks_spruce",
+    "2": "chilean_craft:blocks/t",
+    "missing": "chilean_craft:blocks/planks_spruce"
+  }
+}

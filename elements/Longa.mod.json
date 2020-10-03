@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "onganiza_cocinada",
+    "customModelName": "Normal",
+    "name": "Longaniza ",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 18,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

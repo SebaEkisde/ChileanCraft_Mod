@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:orejadepalo"
+    },
+    "facing=north": {
+      "model": "chilean_craft:orejadepalo"
+    },
+    "facing=east": {
+      "model": "chilean_craft:orejadepalo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:orejadepalo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:orejadepalo",
+      "y": 270
+    }
+  }
+}

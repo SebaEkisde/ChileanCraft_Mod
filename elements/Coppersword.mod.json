@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spada_de_cobre",
+    "customModelName": "Normal",
+    "name": "Espada De Cobre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.2999999999999998,
+    "enchantability": 14,
+    "damageVsEntity": 2.5,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Copperingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

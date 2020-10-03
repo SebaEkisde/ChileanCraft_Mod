@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:cerdo2"
+    },
+    "facing=north": {
+      "model": "chilean_craft:cerdo2"
+    },
+    "facing=east": {
+      "model": "chilean_craft:cerdo2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:cerdo2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:cerdo2",
+      "y": 270
+    }
+  }
+}

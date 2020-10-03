@@ -1,0 +1,17 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    {
+      "item": "chilean_craft:salitree"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 2
+  }
+}

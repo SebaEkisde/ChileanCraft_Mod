@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Chicha"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "TAG:alcol"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Vaso"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Terremoto"
+    },
+    "name": "r28",
+    "namespace": "mod"
+  }
+}

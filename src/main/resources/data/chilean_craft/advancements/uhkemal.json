@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:dylan_helmet"
+    },
+    "title": {
+      "translate": "advancements.uhkemal.title"
+    },
+    "description": {
+      "translate": "advancements.uhkemal.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uhkemal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:story/mine_diamond"
+}

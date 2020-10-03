@@ -1,0 +1,63 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "2020-08-11-005445-gorro_de_lana_gris",
+    "enableBody": true,
+    "textureBody": "2020-09-10-223025-dibujo_106",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "GorrodelanaBodyTickEventf"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "2020-08-11-011239-gorrodelana_",
+    "helmetName": "Gorro de lana ",
+    "bodyName": "Tambor de chinchinero",
+    "leggingsName": "Gorrodelana Leggings",
+    "bootsName": "Gorrodelana Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelchin12",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "bone10",
+    "armsModelPartR": "bone10",
+    "bodyModelTexture": "chin.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 1,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.WOOL#8"
+      },
+      {
+        "value": "Blocks.WOOL#7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Caballo32"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": "Items.COOKED_CHICKEN"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "meat",
+    "namespace": "minecraft"
+  }
+}

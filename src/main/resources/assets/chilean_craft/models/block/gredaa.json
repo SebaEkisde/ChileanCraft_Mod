@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/greda",
+    "up": "chilean_craft:blocks/greda",
+    "north": "chilean_craft:blocks/greda",
+    "east": "chilean_craft:blocks/greda",
+    "south": "chilean_craft:blocks/greda",
+    "west": "chilean_craft:blocks/greda",
+    "particle": "chilean_craft:blocks/greda"
+  }
+}

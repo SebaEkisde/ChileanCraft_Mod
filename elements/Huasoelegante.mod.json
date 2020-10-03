@@ -1,0 +1,60 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "2020-08-21-131447-camisa_huaso_elegante",
+    "enableLeggings": true,
+    "textureLeggings": "2020-08-21-131458-pantalones_huaso_elegante",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "huasoelegante_",
+    "helmetName": "Huasoelegante Helmet",
+    "bodyName": "Camisa de huaso elegante",
+    "leggingsName": "Pantalones de huaso elegante",
+    "bootsName": "Huasoelegante Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 42,
+    "damageValueHelmet": 2,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      }
+    ]
+  }
+}

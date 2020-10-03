@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:feather"
+    },
+    "4": {
+      "item": "minecraft:feather"
+    },
+    "5": {
+      "item": "minecraft:feather"
+    },
+    "6": {
+      "item": "minecraft:feather"
+    },
+    "7": {
+      "item": "minecraft:feather"
+    },
+    "8": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:rapanuilegs",
+    "count": 1
+  }
+}

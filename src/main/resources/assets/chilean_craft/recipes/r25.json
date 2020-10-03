@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:porkchop"
+    },
+    "1": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:longa",
+    "count": 3
+  }
+}

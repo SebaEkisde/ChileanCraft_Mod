@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "jugouva",
+    "customModelName": "Normal",
+    "name": "Jugo de uva moscatel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 3,
+    "saturation": 0.1,
+    "eatingSpeed": 28,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

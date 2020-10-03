@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:berlini"
+    },
+    "title": {
+      "translate": "advancements.unberlini.title"
+    },
+    "description": {
+      "translate": "advancements.unberlini.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unberlini": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "chilean_craft:money"
+}

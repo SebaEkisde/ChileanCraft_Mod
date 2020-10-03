@@ -1,0 +1,36 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "item": "minecraft:bone_meal"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:cordel",
+    "count": 1
+  }
+}

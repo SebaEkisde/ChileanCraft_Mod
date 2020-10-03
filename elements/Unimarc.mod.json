@@ -1,0 +1,55 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "ata_del_nimarc",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "asaito_",
+    "helmetName": "Unimarc Helmet",
+    "bodyName": "Delantal Unimarc",
+    "leggingsName": "Unimarc Leggings",
+    "bootsName": "Unimarc Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 65,
+    "damageValueHelmet": 2,
+    "damageValueBody": 2,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 5,
+    "toughness": 0.7999999999999999,
+    "equipSound": {
+      "value": "block.cloth.place"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.WOOL#14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beef"
+    },
+    "1": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:salchicha",
+    "count": 3
+  }
+}

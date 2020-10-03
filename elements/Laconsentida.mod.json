@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "consentia",
+    "name": "La consentida",
+    "description": "La mejor cueca",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "music": {
+      "value": "CUSTOM:laconsentida"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

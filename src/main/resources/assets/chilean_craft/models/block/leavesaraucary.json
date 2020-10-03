@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chilean_craft:blocks/araucar2",
+    "particle": "chilean_craft:blocks/araucar2"
+  }
+}

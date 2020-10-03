@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/araicrai_plank",
+    "up": "chilean_craft:blocks/araicrai_plank",
+    "north": "chilean_craft:blocks/araicrai_plank",
+    "east": "chilean_craft:blocks/araicrai_plank",
+    "south": "chilean_craft:blocks/araicrai_plank",
+    "west": "chilean_craft:blocks/araicrai_plank",
+    "particle": "chilean_craft:blocks/araicrai_plank"
+  }
+}

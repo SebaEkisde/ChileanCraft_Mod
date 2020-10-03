@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:empanapino"
+    },
+    "title": {
+      "translate": "advancements.brindo3.title"
+    },
+    "description": {
+      "translate": "advancements.brindo3.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brindo3": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "chilean_craft:brindo2"
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hariana"
+      },
+      {
+        "value": "CUSTOM:Hariana"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PUMPKIN"
+      },
+      {
+        "value": "CUSTOM:Mantequillaa"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Sopaipilaa"
+    },
+    "name": "r21",
+    "namespace": "mod"
+  }
+}

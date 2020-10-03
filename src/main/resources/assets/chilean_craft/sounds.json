@@ -1,0 +1,173 @@
+{
+  "laconsentida": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "chilean_craft:ueca_hilena___a_onsentida",
+        "stream": true
+      }
+    ]
+  },
+  "loyola": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "chilean_craft:___-___",
+        "stream": true
+      }
+    ]
+  },
+  "money": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:rophovo_donate_sound_-_ere_comes_the_money",
+        "stream": false
+      }
+    ]
+  },
+  "genral": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:i_eneral_ugusto_inochet_23.1s_-_27.1s_pzmqdkmo_961",
+        "stream": false
+      }
+    ]
+  },
+  "cueca": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "chilean_craft:y2mate.com_-_imno_acional_subtitulado_hile_6bbut_1",
+        "stream": true
+      }
+    ]
+  },
+  "don": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:hatspp_udio_2020-05-20_at_16.58.02",
+        "stream": false
+      }
+    ]
+  },
+  "tambor": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-09-07_at_01.08.37",
+        "stream": false
+      }
+    ]
+  },
+  "kutlrun1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-08-31_at_11.41.33",
+        "stream": false
+      }
+    ]
+  },
+  "tambor2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-08-31_at_09.40.02",
+        "stream": false
+      }
+    ]
+  },
+  "kultrun23": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-08-31_at_09.40.02_1",
+        "stream": false
+      }
+    ]
+  },
+  "a": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "chilean_craft:silvio_rodriguez_-_angel_para_un_final_online-audio-converter.com_1",
+        "stream": true
+      }
+    ]
+  },
+  "ku": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:untitled_online-audio-converter.com",
+        "stream": false
+      }
+    ]
+  },
+  "ky": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:untitled5_online-audio-converter.com",
+        "stream": false
+      }
+    ]
+  },
+  "platillo": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:prophovo_donate_sound_-_here_comes_the_money",
+        "stream": false
+      }
+    ]
+  },
+  "tambo1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-09-15_at_16.55.39",
+        "stream": false
+      }
+    ]
+  },
+  "tambor1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-09-15_at_16.55.39",
+        "stream": false
+      }
+    ]
+  },
+  "kl1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:whatsapp_audio_2020-08-31_at_11.41.33",
+        "stream": false
+      }
+    ]
+  },
+  "tma2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:tambor1",
+        "stream": false
+      }
+    ]
+  },
+  "pla": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "chilean_craft:platillo",
+        "stream": false
+      }
+    ]
+  }
+}

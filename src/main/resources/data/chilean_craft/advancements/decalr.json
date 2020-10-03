@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:doncomedia_helmet"
+    },
+    "title": {
+      "translate": "advancements.decalr.title"
+    },
+    "description": {
+      "translate": "advancements.decalr.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "decalr": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "chilean_craft:uhkemal"
+}

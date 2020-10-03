@@ -1,0 +1,47 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "4": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "6": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "8": {
+      "item": "minecraft:wool",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "chilean_craft:huasaelegantebody",
+    "count": 1
+  }
+}

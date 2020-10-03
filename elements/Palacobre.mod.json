@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pakco",
+    "customModelName": "Normal",
+    "name": "Pala de cobre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 7,
+    "damageVsEntity": 4.5,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Copperingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

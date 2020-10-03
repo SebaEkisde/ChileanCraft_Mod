@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chilean_craft:blocks/mora3",
+    "particle": "chilean_craft:blocks/mora3"
+  }
+}

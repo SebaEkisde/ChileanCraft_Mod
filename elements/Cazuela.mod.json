@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cazuela",
+    "customModelName": "Normal",
+    "name": "Cazuela ",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 20,
+    "saturation": 0.7999999999999999,
+    "eatingSpeed": 74,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CazuelaFoodEaten"
+    }
+  }
+}

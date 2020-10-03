@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "hupaya",
+    "enableBody": true,
+    "textureBody": "oncho",
+    "enableLeggings": true,
+    "textureLeggings": "antalones_de_uaso",
+    "enableBoots": true,
+    "textureBoots": "otas_con_espuelas",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "huaso_",
+    "helmetName": "Gorro de huaso",
+    "bodyName": "Poncho de huaso",
+    "leggingsName": "Pantalones de huaso",
+    "bootsName": "Botas con espuelas",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelshuplalanigga",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "eo.png",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelbotasfinale",
+    "bootsModelPartL": "bone5",
+    "bootsModelPartR": "bone2",
+    "bootsModelTexture": "bota.png",
+    "maxDamage": 46,
+    "damageValueHelmet": 1,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.30000000000000004,
+    "equipSound": {
+      "value": "block.cloth.place"
+    },
+    "repairItems": []
+  }
+}

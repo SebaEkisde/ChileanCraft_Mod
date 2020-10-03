@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "t",
+        "1": "planks_spruce"
+      },
+      "name": "default"
+    }
+  }
+}

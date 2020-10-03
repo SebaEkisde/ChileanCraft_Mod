@@ -1,0 +1,24 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:masadulce"
+    },
+    "1": {
+      "item": "chilean_craft:manjar"
+    },
+    "2": {
+      "item": "chilean_craft:masadulce"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:chilenito",
+    "count": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "1": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "2": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "3": {
+      "item": "chilean_craft:coppernugget"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:moneda50",
+    "count": 1
+  }
+}

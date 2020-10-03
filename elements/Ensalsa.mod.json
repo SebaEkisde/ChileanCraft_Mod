@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "esalada",
+    "customModelName": "Normal",
+    "name": "Ensalada a la chilena",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 8,
+    "saturation": 0.30000000000000004,
+    "eatingSpeed": 48,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CazuelaFoodEaten"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:kultrun",
+    "count": 1
+  }
+}

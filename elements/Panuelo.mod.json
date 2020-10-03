@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ibujo_8",
+    "customModelName": "Normal",
+    "name": "Pañuelo de cueca",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 0,
+    "damageVsEntity": 9.5,
+    "usageCount": 221,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

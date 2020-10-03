@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "2020-05-28-014052-super_8_remasterizado",
+    "customModelName": "Normal",
+    "name": "Super8",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 0.3,
+    "eatingSpeed": 22,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

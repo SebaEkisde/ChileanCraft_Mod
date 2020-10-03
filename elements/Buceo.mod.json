@@ -1,0 +1,59 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "buceo",
+    "enableBody": true,
+    "textureBody": "tanqeu",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "BuceoHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "BuceoBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "diamond__",
+    "helmetName": "Buceo Helmet",
+    "bodyName": "Buceo Body",
+    "leggingsName": "Buceo Leggings",
+    "bootsName": "Buceo Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelbuceoo",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "buzo.png",
+    "bodyModelName": "Modelox",
+    "bodyModelPart": "body",
+    "armsModelPartL": "bone6",
+    "armsModelPartR": "bone6",
+    "bodyModelTexture": "ox.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 95,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 0,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

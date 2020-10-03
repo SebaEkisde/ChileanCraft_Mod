@@ -1,0 +1,16 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:pesos1500"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:moneda500",
+    "count": 3
+  }
+}

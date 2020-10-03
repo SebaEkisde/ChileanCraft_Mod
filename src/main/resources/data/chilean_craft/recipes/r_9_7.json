@@ -1,0 +1,20 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:piochet_helmet"
+    },
+    "1": {
+      "item": "chilean_craft:lentes_helmet"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:piochet_2_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Planks_araucaria"
+      },
+      {
+        "value": "CUSTOM:Planks_araucaria"
+      },
+      {
+        "value": "CUSTOM:Planks_araucaria"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Slabsaraucary"
+    },
+    "name": "r9",
+    "namespace": "mod"
+  }
+}

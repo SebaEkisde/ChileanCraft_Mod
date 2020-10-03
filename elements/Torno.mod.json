@@ -1,0 +1,199 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 356,
+    "height": 360,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 100
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 264,
+          "y": 136
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 264,
+          "y": 172
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 300,
+          "y": 100
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 300,
+          "y": 136
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 300,
+          "y": 172
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 336,
+          "y": 100
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 336,
+          "y": 136
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 336,
+          "y": 172
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 520,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flecha.png",
+          "name": "flecha.png",
+          "x": 383,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Torno de alfarero",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Torno de alfarero",
+          "x": 260,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "     ",
+          "onClick": {
+            "name": "Torn9UpdateTick"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "     ",
+          "x": 492,
+          "y": 178
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " Moldear",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": " Moldear",
+          "x": 501,
+          "y": 187
+        }
+      }
+    ]
+  }
+}

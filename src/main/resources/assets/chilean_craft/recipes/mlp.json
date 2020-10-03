@@ -1,0 +1,20 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "alcol"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:molotovd",
+    "count": 1
+  }
+}

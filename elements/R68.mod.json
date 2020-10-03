@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "CUSTOM:Cascoespanol.helmet"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Huaso.helmet"
+    },
+    "name": "r68",
+    "namespace": "mod"
+  }
+}

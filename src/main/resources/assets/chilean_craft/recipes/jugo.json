@@ -1,0 +1,22 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:uvaa"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "chilean_craft:uvaa"
+    },
+    {
+      "item": "chilean_craft:uvaa"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:jugo1",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "chilean_craft:huesillo"
+    },
+    "4": {
+      "item": "minecraft:potion",
+      "data": 32767
+    },
+    "5": {
+      "item": "chilean_craft:mote"
+    },
+    "7": {
+      "item": "chilean_craft:vaso"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:moreconhuesillo",
+    "count": 1
+  }
+}

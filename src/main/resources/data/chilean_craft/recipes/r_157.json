@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_wool"
+    },
+    "2": {
+      "item": "minecraft:gray_wool"
+    },
+    "3": {
+      "item": "minecraft:gray_wool"
+    },
+    "5": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:huasaelegante_boots",
+    "count": 1
+  }
+}

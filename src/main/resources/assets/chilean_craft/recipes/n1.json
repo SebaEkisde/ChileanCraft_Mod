@@ -1,0 +1,46 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "1": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "3": {
+      "item": "minecraft:iron_nugget"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:iron_nugget"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:torn9",
+    "count": 1
+  }
+}

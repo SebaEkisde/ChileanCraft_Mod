@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "chilean_craft:slabsaraucary"
+    },
+    "half=top,variant=default": {
+      "model": "chilean_craft:slabsaraucary_top"
+    }
+  }
+}

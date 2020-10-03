@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:copperblock"
+    },
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "2": {
+      "item": "chilean_craft:copperblock"
+    },
+    "3": {
+      "item": "chilean_craft:chargedcopperingotitem"
+    },
+    "4": {
+      "item": "chilean_craft:coppersword"
+    },
+    "5": {
+      "item": "chilean_craft:chargedcopperingotitem"
+    },
+    "6": {
+      "item": "chilean_craft:copperblock"
+    },
+    "7": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "8": {
+      "item": "chilean_craft:copperblock"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:chargedcoppersword",
+    "count": 1
+  }
+}

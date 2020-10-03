@@ -1,0 +1,9 @@
+{
+  "parent": "chilean_craft:custom/moai",
+  "textures": {
+    "all": "chilean_craft:blocks/light_gray_concrete",
+    "particle": "chilean_craft:blocks/light_gray_concrete",
+    "2": "chilean_craft:blocks/gray_concrete",
+    "3": "chilean_craft:blocks/light_gray_concrete"
+  }
+}

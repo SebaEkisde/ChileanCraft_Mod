@@ -1,0 +1,15 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Fencearaucary"
+      }
+    ],
+    "blocks": [],
+    "name": "fenceWood",
+    "namespace": "minecraft"
+  }
+}

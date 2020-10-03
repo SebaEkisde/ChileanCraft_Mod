@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Jaivacocida"
+      },
+      {
+        "value": "CUSTOM:Laminas"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plato2"
+      },
+      {
+        "value": "CUSTOM:Laminas"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chupedejaiva"
+    },
+    "name": "r_98",
+    "namespace": "mod"
+  }
+}

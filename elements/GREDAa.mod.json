@@ -1,0 +1,111 @@
+{
+  "_fv": 10,
+  "_type": "block",
+  "definition": {
+    "texture": "greda",
+    "textureTop": "greda",
+    "textureLeft": "greda",
+    "textureFront": "greda",
+    "textureRight": "greda",
+    "textureBack": "greda",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "emissiveRendering": false,
+    "itemTexture": "",
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "name": "Bloque de greda",
+    "specialInfo": [],
+    "hardness": 0.8,
+    "resistance": 3.5,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ChileanBlocks"
+    },
+    "destroyTool": "shovel",
+    "customDrop": {
+      "value": "CUSTOM:Gredaball"
+    },
+    "dropAmount": 4,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "SAND"
+    },
+    "tickRate": 7,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      }
+    ],
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 7,
+    "minGenerateHeight": 49,
+    "maxGenerateHeight": 107
+  }
+}

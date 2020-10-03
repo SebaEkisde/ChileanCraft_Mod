@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:mantequillaa"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "chilean_craft:hariana"
+    },
+    "3": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:masadulce",
+    "count": 5
+  }
+}

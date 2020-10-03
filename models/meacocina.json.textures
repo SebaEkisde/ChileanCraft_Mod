@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "anvil_base",
+        "2": "gredacocida",
+        "3": "stripped_spruce_log",
+        "4": "white_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

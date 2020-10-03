@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Oil"
+    },
+    "name": "r34",
+    "namespace": "mod"
+  }
+}

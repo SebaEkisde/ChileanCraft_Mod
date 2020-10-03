@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "1": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "2": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "3": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "4": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "5": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "6": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "7": {
+      "item": "chilean_craft:coppernugget"
+    },
+    "8": {
+      "item": "chilean_craft:coppernugget"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:copperingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "1": {
+      "item": "minecraft:gray_concrete"
+    },
+    "3": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "4": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "5": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "6": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "7": {
+      "item": "minecraft:light_gray_concrete"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:moai",
+    "count": 1
+  }
+}

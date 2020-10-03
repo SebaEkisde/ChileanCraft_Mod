@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "chilean_craft:blocks/araicrai_plank",
+    "particle": "chilean_craft:blocks/araicrai_plank"
+  }
+}

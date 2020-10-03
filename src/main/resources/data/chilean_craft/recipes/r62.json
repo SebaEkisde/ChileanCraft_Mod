@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:longacocida"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:choripan",
+    "count": 1
+  }
+}

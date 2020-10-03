@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "chilean_craft:blocks/araicrai_plank",
+    "particle": "chilean_craft:blocks/araicrai_plank"
+  }
+}

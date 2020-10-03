@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "pina",
+    "customModelName": "pistolaaa:default",
+    "name": "Rifle español",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Perdogon"
+    },
+    "shootConstantly": false,
+    "usageCount": 600,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.5,
+    "bulletPower": 1.8,
+    "bulletDamage": 4.300000000000001,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Perdogon"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

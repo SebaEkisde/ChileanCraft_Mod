@@ -1,0 +1,42 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "spadaconductora",
+    "customModelName": "Normal",
+    "name": "Espada De Cobre Conductora",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Coppernugget"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 15.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:CoppernuggetC"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ChargedcopperswordBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ChargedcopperswordBulletHitsBlock"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:bricc"
+    },
+    "1": {
+      "item": "chilean_craft:bricc"
+    },
+    "2": {
+      "item": "chilean_craft:bricc"
+    },
+    "3": {
+      "item": "chilean_craft:bricc"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:brdisds",
+    "count": 1
+  }
+}

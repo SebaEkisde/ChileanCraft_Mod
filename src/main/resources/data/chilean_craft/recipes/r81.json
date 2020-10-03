@@ -1,0 +1,36 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:copperingot"
+    },
+    "1": {
+      "item": "chilean_craft:copperingot"
+    },
+    "2": {
+      "item": "chilean_craft:copperingot"
+    },
+    "3": {
+      "item": "chilean_craft:copperingot"
+    },
+    "5": {
+      "item": "chilean_craft:copperingot"
+    },
+    "6": {
+      "item": "chilean_craft:copperingot"
+    },
+    "8": {
+      "item": "chilean_craft:copperingot"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:copperhelmet_leggings",
+    "count": 1
+  }
+}

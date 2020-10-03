@@ -1,0 +1,21 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Cebolla"
+      },
+      {
+        "value": "CUSTOM:Bailahuen"
+      },
+      {
+        "value": "CUSTOM:Ruda"
+      }
+    ],
+    "blocks": [],
+    "name": "hierbamedicinal",
+    "namespace": "minecraft"
+  }
+}

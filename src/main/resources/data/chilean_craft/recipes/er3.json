@@ -1,0 +1,28 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:plato2"
+    },
+    {
+      "item": "chilean_craft:maizfruit"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "chilean_craft:seedscebolla"
+    },
+    {
+      "item": "chilean_craft:huevoduro"
+    },
+    {
+      "item": "chilean_craft:p9nao"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:paasteld",
+    "count": 1
+  }
+}

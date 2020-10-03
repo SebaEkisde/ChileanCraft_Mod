@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plato2"
+      },
+      {
+        "value": "CUSTOM:Tomatelimachino"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Seedscebolla"
+      },
+      {
+        "value": "CUSTOM:Tomatelimachino"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ensalsa"
+    },
+    "name": "s",
+    "namespace": "mod"
+  }
+}

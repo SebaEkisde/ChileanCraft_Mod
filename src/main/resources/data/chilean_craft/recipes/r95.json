@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "minecraft:ghast_tear"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "chilean_craft:emoj_helmet"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    },
+    "6": {
+      "item": "minecraft:red_wool"
+    },
+    "7": {
+      "item": "minecraft:red_wool"
+    },
+    "8": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:capitancoror_helmet",
+    "count": 1
+  }
+}

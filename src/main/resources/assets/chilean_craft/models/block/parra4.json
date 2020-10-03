@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chilean_craft:blocks/parra02",
+    "particle": "chilean_craft:blocks/parra02"
+  }
+}

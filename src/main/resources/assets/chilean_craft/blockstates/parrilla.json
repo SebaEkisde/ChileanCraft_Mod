@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:parrilla"
+    },
+    "facing=north": {
+      "model": "chilean_craft:parrilla"
+    },
+    "facing=east": {
+      "model": "chilean_craft:parrilla",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:parrilla",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:parrilla",
+      "y": 270
+    }
+  }
+}

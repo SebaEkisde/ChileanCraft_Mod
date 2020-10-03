@@ -1,0 +1,59 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "2020-08-22-150931-saco_de_papas",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "2020-08-22-150931-saco_de_papas",
+    "onBodyTick": {
+      "name": "SacodepapaBootsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SacodepapaBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "chile_",
+    "helmetName": "Sacodepapa Helmet",
+    "bodyName": "Saco",
+    "leggingsName": "Sacodepapa Leggings",
+    "bootsName": "Saco ",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelsaco12",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "bone2",
+    "armsModelPartR": "bone2",
+    "bodyModelTexture": "jjj.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelsaxoc",
+    "bootsModelPartL": "bone",
+    "bootsModelPartR": "bone",
+    "bootsModelTexture": "whatsapp_image_2020-09-10_at_22.12.10.png",
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

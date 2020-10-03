@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/tinaja_de_greda",
+  "textures": {
+    "all": "chilean_craft:blocks/gredacocida",
+    "particle": "chilean_craft:blocks/gredacocida",
+    "concrete_black": "chilean_craft:blocks/sssssssssssssstonenegra",
+    "concrete_powder_orange": "chilean_craft:blocks/gredacocida",
+    "concrete_powder_brown": "chilean_craft:blocks/gredacocida"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Mantequillaa"
+      },
+      {
+        "value": "CUSTOM:Hariana"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hariana"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Masa"
+    },
+    "name": "eqw",
+    "namespace": "mod"
+  }
+}

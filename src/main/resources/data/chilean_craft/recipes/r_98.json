@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:jaivacocida"
+    },
+    "1": {
+      "item": "chilean_craft:laminas"
+    },
+    "2": {
+      "item": "chilean_craft:plato2"
+    },
+    "3": {
+      "item": "chilean_craft:laminas"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:chupedejaiva",
+    "count": 1
+  }
+}

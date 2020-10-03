@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "aaaaaaa",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "name": "Cebolla",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.1,
+    "resistance": 0.5,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:Seedscebolla"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "Cebolla0UpdateTick"
+    },
+    "onDestroyedByPlayer": {
+      "name": "Cebolla6PlantDestroyedByPlayer"
+    },
+    "onRightClicked": {
+      "name": "Cebolla0PlantRightClicked"
+    }
+  }
+}

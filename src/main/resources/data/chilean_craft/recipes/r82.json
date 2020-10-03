@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:copperingot"
+    },
+    "2": {
+      "item": "chilean_craft:copperingot"
+    },
+    "3": {
+      "item": "chilean_craft:copperingot"
+    },
+    "5": {
+      "item": "chilean_craft:copperingot"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:copperhelmet_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.PLANKS#0"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "Blocks.PLANKS#3"
+      },
+      {
+        "value": "Blocks.PLANKS#4"
+      },
+      {
+        "value": "Blocks.PLANKS#5"
+      },
+      {
+        "value": "CUSTOM:Planks_araucaria"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "plankWood",
+    "namespace": "minecraft"
+  }
+}

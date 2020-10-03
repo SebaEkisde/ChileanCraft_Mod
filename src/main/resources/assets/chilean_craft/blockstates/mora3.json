@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=dandelion": {
+      "model": "chilean_craft:mora3"
+    }
+  }
+}

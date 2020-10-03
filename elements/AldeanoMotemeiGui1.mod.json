@@ -1,0 +1,94 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Aldeano Motemei ",
+          "color": {
+            "value": -13224394,
+            "falpha": 0.0
+          },
+          "name": "Aldeano Motemei ",
+          "x": 266,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Huesillo",
+          "onClick": {
+            "name": "HuesilloActionOfButtonAldeanoMotemei"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Huesillo",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2x100 Pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "2x100 Pesos",
+          "x": 431,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mote",
+          "onClick": {
+            "name": "MoteActionOfButtonAldeanoMotemei"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Mote",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2x100 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "2x100 pesos",
+          "x": 348,
+          "y": 177
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "SecondGuiAldeanoMotemei"
+          },
+          "width": 40,
+          "height": 40,
+          "name": ">",
+          "x": 534,
+          "y": 186
+        }
+      }
+    ]
+  }
+}

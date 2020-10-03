@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/araucaria",
+    "up": "chilean_craft:blocks/araucaria",
+    "north": "chilean_craft:blocks/maderaaraucaria",
+    "east": "chilean_craft:blocks/maderaaraucaria",
+    "south": "chilean_craft:blocks/maderaaraucaria",
+    "west": "chilean_craft:blocks/maderaaraucaria",
+    "particle": "chilean_craft:blocks/araucaria"
+  }
+}

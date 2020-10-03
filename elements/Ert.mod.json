@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Orejadepalo"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.MUSHROOM_STEW"
+    },
+    "name": "ert",
+    "namespace": "mod"
+  }
+}

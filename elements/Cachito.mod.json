@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ibujo_6",
+    "customModelName": "Normal",
+    "name": "Cachito de Manjar",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 0.4,
+    "eatingSpeed": 28,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

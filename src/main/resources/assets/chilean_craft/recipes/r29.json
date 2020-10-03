@@ -1,0 +1,37 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "1": {
+      "item": "chilean_craft:lenteshelmet"
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "4": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 15
+    }
+  },
+  "result": {
+    "item": "chilean_craft:dylanhelmet",
+    "count": 1
+  }
+}

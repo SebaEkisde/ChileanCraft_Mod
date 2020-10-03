@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "chilean_craft",
+    "name": "Chilean Craft",
+    "description": "",
+    "version": "1.7.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "Srperrito, salvador fonseca, sesba, mcreator"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

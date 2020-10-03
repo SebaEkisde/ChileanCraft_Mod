@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chicha",
+    "customModelName": "Normal",
+    "name": "Chicha",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 0.19999999999999998,
+    "eatingSpeed": 27,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "Pipeno1FoodEaten"
+    },
+    "onCrafted": {
+      "name": "ChichaItemIsCraftedsmelted"
+    }
+  }
+}

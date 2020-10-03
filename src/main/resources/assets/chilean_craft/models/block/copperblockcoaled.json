@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/loque_de_obre_quemado",
+    "up": "chilean_craft:blocks/loque_de_obre_quemado",
+    "north": "chilean_craft:blocks/loque_de_obre_quemado",
+    "east": "chilean_craft:blocks/loque_de_obre_quemado",
+    "south": "chilean_craft:blocks/loque_de_obre_quemado",
+    "west": "chilean_craft:blocks/loque_de_obre_quemado",
+    "particle": "chilean_craft:blocks/loque_de_obre_quemado"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:telar"
+    },
+    "facing=north": {
+      "model": "chilean_craft:telar"
+    },
+    "facing=east": {
+      "model": "chilean_craft:telar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:telar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:telar",
+      "y": 270
+    }
+  }
+}

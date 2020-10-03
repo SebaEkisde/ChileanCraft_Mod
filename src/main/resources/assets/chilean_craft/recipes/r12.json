@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:araucaria"
+    },
+    "1": {
+      "item": "chilean_craft:araucaria"
+    },
+    "2": {
+      "item": "chilean_craft:araucaria"
+    },
+    "3": {
+      "item": "chilean_craft:araucaria"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:greda",
+    "count": 3
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StripedARucary"
+      },
+      {
+        "value": "CUSTOM:StripedARucary"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StripedARucary"
+      },
+      {
+        "value": "CUSTOM:StripedARucary"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Stripedwood"
+    },
+    "name": "r13",
+    "namespace": "mod"
+  }
+}

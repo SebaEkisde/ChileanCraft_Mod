@@ -1,0 +1,16 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:masa"
+    },
+    {
+      "item": "chilean_craft:laminas"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:empanadacrda",
+    "count": 1
+  }
+}

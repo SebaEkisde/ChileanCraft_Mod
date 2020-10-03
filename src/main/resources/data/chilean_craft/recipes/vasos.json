@@ -1,0 +1,30 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:vaso",
+    "count": 3
+  }
+}

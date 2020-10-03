@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "heartfd",
+    "customModelName": "Normal",
+    "name": "Corazon de Pedro de Valdivia",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ChileanFood"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 11,
+    "saturation": 0.9,
+    "eatingSpeed": 44,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CorazondePedrodeValdiviaFoodEaten"
+    }
+  }
+}

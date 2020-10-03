@@ -1,0 +1,40 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "minecraft:wool",
+      "data": 11
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:bandera",
+    "count": 1
+  }
+}

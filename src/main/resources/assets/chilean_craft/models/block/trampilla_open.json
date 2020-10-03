@@ -1,0 +1,7 @@
+{
+  "parent": "block/trapdoor_open",
+  "textures": {
+    "texture": "chilean_craft:blocks/whatsapp_image_2020-06-01_at_20.11.57",
+    "particle": "chilean_craft:blocks/whatsapp_image_2020-06-01_at_20.11.57"
+  }
+}

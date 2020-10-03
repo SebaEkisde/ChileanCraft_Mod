@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:cardo"
+    },
+    "1": {
+      "item": "chilean_craft:cardo"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_dye",
+    "count": 1
+  }
+}

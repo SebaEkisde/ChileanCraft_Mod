@@ -1,0 +1,32 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_dye"
+    },
+    "1": {
+      "item": "minecraft:bone_meal"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "minecraft:ink_sac"
+    },
+    "4": {
+      "item": "chilean_craft:cascoespanol_helmet"
+    },
+    "5": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:huaso_helmet",
+    "count": 1
+  }
+}

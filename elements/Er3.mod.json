@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plato2"
+      },
+      {
+        "value": "CUSTOM:Maizfruit"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COOKED_CHICKEN"
+      },
+      {
+        "value": "CUSTOM:Seedscebolla"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Egg"
+      },
+      {
+        "value": "CUSTOM:P9nao"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Paasteld"
+    },
+    "name": "er3",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "chilean_craft:merluza"
+  },
+  "result": {
+    "item": "chilean_craft:merluzacocida"
+  }
+}

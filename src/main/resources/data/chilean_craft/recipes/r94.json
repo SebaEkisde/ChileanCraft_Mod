@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "chilean_craft:gorrocomedia_helmet"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:cyan_wool"
+    },
+    "4": {
+      "item": "chilean_craft:emoj_helmet"
+    },
+    "5": {
+      "item": "minecraft:cyan_wool"
+    },
+    "6": {
+      "item": "minecraft:cyan_wool"
+    },
+    "7": {
+      "item": "minecraft:cyan_wool"
+    },
+    "8": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:doncomedia_helmet",
+    "count": 1
+  }
+}

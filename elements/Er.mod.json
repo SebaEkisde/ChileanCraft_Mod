@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:hierbamedicinal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:hierbamedicinal"
+      },
+      {
+        "value": "CUSTOM:Taza2"
+      },
+      {
+        "value": "TAG:hierbamedicinal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:hierbamedicinal"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tazaa"
+    },
+    "name": "er",
+    "namespace": "mod"
+  }
+}

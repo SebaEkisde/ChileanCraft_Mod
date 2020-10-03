@@ -1,0 +1,29 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "hierbamedicinal"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "hierbamedicinal"
+    },
+    {
+      "item": "chilean_craft:taza2"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "hierbamedicinal"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "hierbamedicinal"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:tazaa",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/ibujo_9",
+    "up": "chilean_craft:blocks/ibujo_9",
+    "north": "chilean_craft:blocks/ibujo_9",
+    "east": "chilean_craft:blocks/ibujo_9",
+    "south": "chilean_craft:blocks/ibujo_9",
+    "west": "chilean_craft:blocks/ibujo_9",
+    "particle": "chilean_craft:blocks/ibujo_9"
+  }
+}

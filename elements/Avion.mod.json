@@ -1,0 +1,40 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "avion",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 500,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "warm_ocean"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+  }
+}

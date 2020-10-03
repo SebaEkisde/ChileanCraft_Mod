@@ -1,0 +1,22 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:leather_boots"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:huaso_boots",
+    "count": 1
+  }
+}

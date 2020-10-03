@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:completo"
+    },
+    "title": {
+      "translate": "advancements.vamoacomercompletos.title"
+    },
+    "description": {
+      "translate": "advancements.vamoacomercompletos.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vamoacomercompletos": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:story/root"
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Copperblock"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "CUSTOM:Copperblock"
+      },
+      {
+        "value": "CUSTOM:Chargedcopperingotitem"
+      },
+      {
+        "value": "CUSTOM:Coppersword"
+      },
+      {
+        "value": "CUSTOM:Chargedcopperingotitem"
+      },
+      {
+        "value": "CUSTOM:Copperblock"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:Copperblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chargedcoppersword"
+    },
+    "name": "copperswordcrecipe",
+    "namespace": "mod"
+  }
+}

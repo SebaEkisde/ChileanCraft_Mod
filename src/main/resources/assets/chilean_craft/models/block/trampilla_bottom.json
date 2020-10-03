@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "chilean_craft:blocks/whatsapp_image_2020-06-01_at_21.16.18",
+    "top": "chilean_craft:blocks/whatsapp_image_2020-06-01_at_21.16.18_1"
+  }
+}

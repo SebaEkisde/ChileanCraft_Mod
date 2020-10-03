@@ -1,0 +1,22 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:plato2"
+    },
+    {
+      "item": "chilean_craft:tomatelimachino"
+    },
+    {
+      "item": "chilean_craft:seedscebolla"
+    },
+    {
+      "item": "chilean_craft:tomatelimachino"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:ensalsa",
+    "count": 1
+  }
+}

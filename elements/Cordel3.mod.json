@@ -1,0 +1,45 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "trompooamarillo",
+    "customModelName": "Normal",
+    "name": "Trompo amarillo",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Cordel3"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "CordelRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Cordel3"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "Cordel3BulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "Cordel3BulletHitsBlock"
+    }
+  }
+}

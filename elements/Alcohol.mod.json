@@ -1,0 +1,18 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Pioeno2"
+      },
+      {
+        "value": "CUSTOM:Pipeno1"
+      }
+    ],
+    "blocks": [],
+    "name": "alcol",
+    "namespace": "minecraft"
+  }
+}

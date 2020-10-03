@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/flower_pot_c",
+  "textures": {
+    "all": "chilean_craft:blocks/flower_pot",
+    "particle": "chilean_craft:blocks/flower_pot",
+    "flowerpot": "chilean_craft:blocks/flower_pot",
+    "plant": "chilean_craft:blocks/copihue1",
+    "dirt": "chilean_craft:blocks/tierra"
+  }
+}

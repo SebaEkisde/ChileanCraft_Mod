@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "an",
+    "name": "Angel para un final",
+    "description": "Angel para un final",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "music": {
+      "value": "CUSTOM:a"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

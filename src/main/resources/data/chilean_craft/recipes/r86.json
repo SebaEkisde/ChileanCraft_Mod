@@ -1,0 +1,33 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:moneda500"
+    },
+    "1": {
+      "item": "chilean_craft:moneda500"
+    },
+    "2": {
+      "item": "chilean_craft:moneda500"
+    },
+    "3": {
+      "item": "chilean_craft:moneda500"
+    },
+    "4": {
+      "item": "chilean_craft:moneda500"
+    },
+    "5": {
+      "item": "chilean_craft:moneda500"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:tremilpesoso",
+    "count": 1
+  }
+}

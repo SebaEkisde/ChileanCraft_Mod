@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=1": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=2": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=3": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=4": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=5": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=6": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=7": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=8": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=9": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=10": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=11": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=12": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=13": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=14": {
+      "model": "chilean_craft:tomate7"
+    },
+    "age=15": {
+      "model": "chilean_craft:tomate7"
+    }
+  }
+}

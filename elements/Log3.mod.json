@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [],
+    "blocks": [],
+    "name": "logWood",
+    "namespace": "forge"
+  }
+}

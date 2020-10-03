@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.DYE#18"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.DYE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cordel"
+    },
+    "name": "trompo",
+    "namespace": "mod"
+  }
+}

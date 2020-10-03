@@ -1,0 +1,24 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "tag": "meat"
+    },
+    "4": {
+      "tag": "meat"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:antochucho",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brown_terracotta",
+        "1": "dirt_podzol_top"
+      },
+      "name": "default"
+    }
+  }
+}

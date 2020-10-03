@@ -1,0 +1,9 @@
+{
+  "parent": "chilean_craft:custom/compos9",
+  "textures": {
+    "all": "chilean_craft:blocks/brown_terracotta",
+    "particle": "chilean_craft:blocks/brown_terracotta",
+    "0": "chilean_craft:blocks/brown_terracotta",
+    "1": "chilean_craft:blocks/dirt_podzol_top"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potion"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:potion"
+    },
+    "3": {
+      "item": "minecraft:blue_orchid"
+    },
+    "4": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "5": {
+      "tag": "minecraft:small_flowers"
+    },
+    "6": {
+      "item": "minecraft:potion"
+    },
+    "7": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "8": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:fijiman_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brown_terracotta",
+        "2": "cachongos"
+      },
+      "name": "default"
+    }
+  }
+}

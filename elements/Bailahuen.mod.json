@@ -1,0 +1,56 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "bainahuenk",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "name": "Bailahuen",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "hardness": 0.1,
+    "resistance": 0.5,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "GRASS",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "CUSTOM:Araucarfsrest"
+      }
+    ]
+  }
+}

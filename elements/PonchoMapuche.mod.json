@@ -1,0 +1,63 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "2020-08-21-142637-cinta_mapuche",
+    "enableBody": true,
+    "textureBody": "2020-08-07-135102-poncho_mapuche",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "armorTextureFile": "2020-08-07-122424-mapuche_",
+    "helmetName": "Cinta Mapuche ",
+    "bodyName": "Poncho Mapuche",
+    "leggingsName": "Poncho Mapuche Leggings",
+    "bootsName": "Poncho Mapuche Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 30,
+    "damageValueHelmet": 1,
+    "damageValueBody": 1,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.WOOL#8"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      }
+    ]
+  }
+}

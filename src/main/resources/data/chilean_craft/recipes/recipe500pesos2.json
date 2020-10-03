@@ -1,0 +1,13 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:pesos5000"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:moneda500",
+    "count": 10
+  }
+}

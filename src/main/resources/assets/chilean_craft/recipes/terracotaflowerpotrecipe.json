@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 8
+    },
+    "2": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 8
+    },
+    "4": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 8
+    }
+  },
+  "result": {
+    "item": "chilean_craft:terracotsflowerpot",
+    "count": 1
+  }
+}

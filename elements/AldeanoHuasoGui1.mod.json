@@ -1,0 +1,94 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Aldeano Huaso",
+          "color": {
+            "value": -13224394,
+            "falpha": 0.0
+          },
+          "name": "Aldeano Huaso",
+          "x": 263,
+          "y": 83
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pipeno",
+          "onClick": {
+            "name": "AHuasoButtonPipenosClickOnIt"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Pipeno",
+          "x": 262,
+          "y": 104
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2x1500 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "2x1500 pesos",
+          "x": 387,
+          "y": 112
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Panuelo de Cueca",
+          "onClick": {
+            "name": "AHuasoPanueloButtonClickOnIt"
+          },
+          "width": 320,
+          "height": 40,
+          "name": "Panuelo de Cueca",
+          "x": 261,
+          "y": 149
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x5000 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x5000 pesos",
+          "x": 361,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "Siguiente"
+          },
+          "width": 40,
+          "height": 40,
+          "name": ">",
+          "x": 551,
+          "y": 195
+        }
+      }
+    ]
+  }
+}

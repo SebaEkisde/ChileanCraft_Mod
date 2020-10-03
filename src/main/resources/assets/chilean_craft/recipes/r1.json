@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:gredaball"
+    },
+    "1": {
+      "item": "chilean_craft:gredaball"
+    },
+    "2": {
+      "item": "chilean_craft:gredaball"
+    },
+    "3": {
+      "item": "chilean_craft:gredaball"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:gredaa",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/adminblock",
+    "up": "chilean_craft:blocks/adminblock",
+    "north": "chilean_craft:blocks/adminblock",
+    "east": "chilean_craft:blocks/adminblock",
+    "south": "chilean_craft:blocks/adminblock",
+    "west": "chilean_craft:blocks/adminblock",
+    "particle": "chilean_craft:blocks/adminblock"
+  }
+}

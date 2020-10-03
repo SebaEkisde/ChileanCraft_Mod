@@ -1,0 +1,36 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:snowball"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "chilean_craft:chicha"
+    },
+    "4": {
+      "item": "minecraft:snowball"
+    },
+    "5": {
+      "tag": "alcol"
+    },
+    "7": {
+      "item": "chilean_craft:vaso"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:terremoto",
+    "count": 1
+  }
+}

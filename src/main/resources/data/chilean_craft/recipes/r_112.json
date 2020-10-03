@@ -1,0 +1,33 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:planks_araucaria"
+    },
+    "1": {
+      "item": "chilean_craft:planks_araucaria"
+    },
+    "2": {
+      "item": "chilean_craft:planks_araucaria"
+    },
+    "3": {
+      "item": "chilean_craft:planks_araucaria"
+    },
+    "4": {
+      "item": "chilean_craft:planks_araucaria"
+    },
+    "5": {
+      "item": "chilean_craft:planks_araucaria"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:puerta",
+    "count": 3
+  }
+}

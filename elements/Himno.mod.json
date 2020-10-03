@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "himno",
+    "name": "Himno nacional",
+    "description": "Himno nacional",
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "music": {
+      "value": "CUSTOM:cueca"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

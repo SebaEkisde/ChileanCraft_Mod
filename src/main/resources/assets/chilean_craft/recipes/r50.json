@@ -1,0 +1,25 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:mantecador",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:huasohelmet"
+    },
+    "title": {
+      "translate": "advancements.tikitkiti.title"
+    },
+    "description": {
+      "translate": "advancements.tikitkiti.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tikitkiti": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "minecraft:story/obtain_armor"
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "chilean_craft:custom/bandera_de_chile",
+  "textures": {
+    "all": "chilean_craft:blocks/textura_para_bloque",
+    "particle": "chilean_craft:blocks/textura_para_bloque",
+    "0": "chilean_craft:blocks/texture1",
+    "2": "chilean_craft:blocks/texture2",
+    "3": "chilean_craft:blocks/texture3",
+    "4": "chilean_craft:blocks/texture4",
+    "5": "chilean_craft:blocks/stripped_spruce_log",
+    "6": "chilean_craft:blocks/texture6",
+    "missing": "chilean_craft:blocks/textura_para_bloque"
+  }
+}

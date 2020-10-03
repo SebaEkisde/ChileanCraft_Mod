@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "brown_terracotta",
+        "2": "white_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

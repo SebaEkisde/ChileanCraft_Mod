@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/torno",
+  "textures": {
+    "all": "chilean_craft:blocks/anvil_base",
+    "particle": "chilean_craft:blocks/anvil_base",
+    "0": "chilean_craft:blocks/stripped_oak_log",
+    "1": "chilean_craft:blocks/anvil_base",
+    "3": "chilean_craft:blocks/planks_spruce"
+  }
+}

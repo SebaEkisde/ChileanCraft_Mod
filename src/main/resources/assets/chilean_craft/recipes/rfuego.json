@@ -1,0 +1,38 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "3": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "4": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:fire_charge"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:cordelfuego",
+    "count": 1
+  }
+}

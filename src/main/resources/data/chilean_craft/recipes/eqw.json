@@ -1,0 +1,22 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:mantequillaa"
+    },
+    {
+      "item": "chilean_craft:hariana"
+    },
+    {
+      "item": "chilean_craft:hariana"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:masa",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "chilean_craft:custom/znegativo",
+  "textures": {
+    "all": "chilean_craft:blocks/white_concrete",
+    "particle": "chilean_craft:blocks/white_concrete",
+    "1": "chilean_craft:blocks/brown_terracotta",
+    "2": "chilean_craft:blocks/white_concrete"
+  }
+}

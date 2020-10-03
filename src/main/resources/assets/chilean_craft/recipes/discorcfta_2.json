@@ -1,0 +1,17 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:bandera"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dicotag"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:himno",
+    "count": 1
+  }
+}

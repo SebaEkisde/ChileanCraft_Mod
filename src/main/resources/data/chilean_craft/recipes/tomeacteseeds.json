@@ -1,0 +1,16 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:tomatelimachino"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:semillatomate",
+    "count": 1
+  }
+}

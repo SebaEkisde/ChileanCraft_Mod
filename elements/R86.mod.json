@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": "CUSTOM:Moneda500"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tremilpesoso"
+    },
+    "name": "r86",
+    "namespace": "mod"
+  }
+}

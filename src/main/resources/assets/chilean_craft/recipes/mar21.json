@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:hariana"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "chilean_craft:hariana"
+    },
+    "3": {
+      "item": "chilean_craft:hariana"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:macruda",
+    "count": 1
+  }
+}

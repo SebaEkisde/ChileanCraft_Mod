@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "chilean_craft:bandera"
+    },
+    "facing=north": {
+      "model": "chilean_craft:bandera"
+    },
+    "facing=east": {
+      "model": "chilean_craft:bandera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:bandera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:bandera",
+      "y": 270
+    }
+  }
+}

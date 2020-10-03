@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "chilean_craft:slabsaraucary_double"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:double_plant",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:double_plant",
+      "data": 0
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "minecraft:double_plant",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:double_plant",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "chilean_craft:oil",
+    "count": 1
+  }
+}

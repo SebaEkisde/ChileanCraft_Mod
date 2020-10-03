@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ho",
+    "customModelName": "Normal",
+    "name": "Azada de cobre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Chilecraft"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 6.5,
+    "attackSpeed": 3.5,
+    "enchantability": 7,
+    "damageVsEntity": 3.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Copperingot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

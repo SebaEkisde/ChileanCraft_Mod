@@ -1,0 +1,12 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "chilean_craft:maizfruit"
+  },
+  "result": {
+    "item": "chilean_craft:maizcocido"
+  }
+}

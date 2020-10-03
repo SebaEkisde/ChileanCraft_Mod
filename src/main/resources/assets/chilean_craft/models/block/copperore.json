@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/opper_ore",
+    "up": "chilean_craft:blocks/opper_ore",
+    "north": "chilean_craft:blocks/opper_ore",
+    "east": "chilean_craft:blocks/opper_ore",
+    "south": "chilean_craft:blocks/opper_ore",
+    "west": "chilean_craft:blocks/opper_ore",
+    "particle": "chilean_craft:blocks/opper_ore"
+  }
+}

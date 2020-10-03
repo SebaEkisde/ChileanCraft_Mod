@@ -1,0 +1,9 @@
+{
+  "parent": "chilean_craft:custom/amtecadro",
+  "textures": {
+    "all": "chilean_craft:blocks/planks_spruce",
+    "particle": "chilean_craft:blocks/planks_spruce",
+    "0": "chilean_craft:blocks/t",
+    "1": "chilean_craft:blocks/planks_spruce"
+  }
+}

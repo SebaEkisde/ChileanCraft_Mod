@@ -1,0 +1,23 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "2": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "4": {
+      "item": "minecraft:light_gray_terracotta"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:terracotsflowerpot",
+    "count": 1
+  }
+}

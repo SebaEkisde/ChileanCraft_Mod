@@ -1,0 +1,30 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 7
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 7
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 7
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 7
+    }
+  },
+  "result": {
+    "item": "chilean_craft:huasaeleganteboots",
+    "count": 1
+  }
+}

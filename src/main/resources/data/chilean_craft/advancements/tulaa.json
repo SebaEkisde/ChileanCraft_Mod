@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "chilean_craft:tula"
+    },
+    "title": {
+      "translate": "advancements.tulaa.title"
+    },
+    "description": {
+      "translate": "advancements.tulaa.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tulaa": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "chilean_craft:money"
+}

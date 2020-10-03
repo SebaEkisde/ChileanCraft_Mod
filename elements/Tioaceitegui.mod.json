@@ -1,0 +1,94 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Tio aceite",
+          "color": {
+            "value": -13224394,
+            "falpha": 0.0
+          },
+          "name": "Tio aceite",
+          "x": 265,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x200 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x200 pesos",
+          "x": 469,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x500 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x500 pesos",
+          "x": 485,
+          "y": 164
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "Sig2"
+          },
+          "width": 40,
+          "height": 40,
+          "name": ">",
+          "x": 557,
+          "y": 193
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sopaipilla",
+          "onClick": {
+            "name": "Tio1"
+          },
+          "width": 200,
+          "height": 40,
+          "name": "Sopaipilla",
+          "x": 259,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Empanada de queso",
+          "onClick": {
+            "name": "Tio2"
+          },
+          "width": 220,
+          "height": 40,
+          "name": "Empanada de queso",
+          "x": 258,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

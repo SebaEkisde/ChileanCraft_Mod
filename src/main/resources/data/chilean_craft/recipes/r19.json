@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:masa"
+    },
+    {
+      "item": "chilean_craft:p9nao"
+    },
+    {
+      "item": "chilean_craft:huevoduro"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:empanadapinocruda",
+    "count": 1
+  }
+}

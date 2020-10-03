@@ -1,0 +1,26 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:pesos1500"
+    },
+    "1": {
+      "item": "chilean_craft:pesos1500"
+    },
+    "2": {
+      "item": "chilean_craft:pesos1500"
+    },
+    "3": {
+      "item": "chilean_craft:moneda500"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:pesos5000",
+    "count": 1
+  }
+}

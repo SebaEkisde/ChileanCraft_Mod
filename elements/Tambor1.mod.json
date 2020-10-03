@@ -1,0 +1,12 @@
+{
+  "_fv": 10,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Tambor 1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Tambor1OnKeyPressed"
+    }
+  }
+}

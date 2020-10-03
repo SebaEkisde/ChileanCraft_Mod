@@ -1,0 +1,94 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Aldeano Haitiano",
+          "color": {
+            "value": -13224394,
+            "falpha": 0.0
+          },
+          "name": "Aldeano Haitiano",
+          "x": 263,
+          "y": 83
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Super 8",
+          "onClick": {
+            "name": "AHGuiSuper8ButtonActionClickOnIt"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Super 8",
+          "x": 260,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x200 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x200 pesos",
+          "x": 346,
+          "y": 117
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "AHNextGui"
+          },
+          "width": 40,
+          "height": 40,
+          "name": ">",
+          "x": 551,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3x500 pesos",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "3x500 pesos",
+          "x": 485,
+          "y": 160
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Super 8(x3)",
+          "onClick": {
+            "name": "AHGuiSuper8x3ButtonActionClickOnIt"
+          },
+          "width": 220,
+          "height": 40,
+          "name": "Super 8(x3)",
+          "x": 261,
+          "y": 151
+        }
+      }
+    ]
+  }
+}

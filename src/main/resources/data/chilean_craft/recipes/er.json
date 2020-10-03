@@ -1,0 +1,25 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "hierbamedicinal"
+    },
+    {
+      "tag": "hierbamedicinal"
+    },
+    {
+      "item": "chilean_craft:taza2"
+    },
+    {
+      "tag": "hierbamedicinal"
+    },
+    {
+      "tag": "hierbamedicinal"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:tazaa",
+    "count": 1
+  }
+}

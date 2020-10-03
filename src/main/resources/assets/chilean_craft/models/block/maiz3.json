@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chilean_craft:blocks/matamaizs1",
+    "particle": "chilean_craft:blocks/matamaizs1"
+  }
+}

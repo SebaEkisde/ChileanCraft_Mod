@@ -1,0 +1,19 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "chilean_craft:pasamasado"
+    },
+    "1": {
+      "item": "minecraft:cooked_cod"
+    }
+  },
+  "result": {
+    "item": "chilean_craft:sangche",
+    "count": 1
+  }
+}

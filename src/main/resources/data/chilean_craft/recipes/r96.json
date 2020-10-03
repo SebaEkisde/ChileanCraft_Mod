@@ -1,0 +1,16 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chilean_craft:bandera"
+    },
+    {
+      "tag": "dicoo"
+    }
+  ],
+  "result": {
+    "item": "chilean_craft:himno",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chilean_craft:blocks/a",
+    "up": "chilean_craft:blocks/a",
+    "north": "chilean_craft:blocks/zriped_arauc",
+    "east": "chilean_craft:blocks/zriped_arauc",
+    "south": "chilean_craft:blocks/zriped_arauc",
+    "west": "chilean_craft:blocks/zriped_arauc",
+    "particle": "chilean_craft:blocks/a"
+  }
+}
