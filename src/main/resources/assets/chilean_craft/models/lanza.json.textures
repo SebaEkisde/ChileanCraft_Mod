@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_spruce_log",
+        "1": "ibujo_9",
+        "2": "texture2"
+      },
+      "name": "default"
+    }
+  }
+}

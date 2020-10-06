@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture1",
+        "2": "texture2",
+        "3": "texture3",
+        "4": "texture4",
+        "5": "stripped_spruce_log",
+        "6": "texture6",
+        "missing": "textura_para_bloque"
+      },
+      "name": "default"
+    }
+  }
+}

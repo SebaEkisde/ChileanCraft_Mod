@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "concrete_black": "sssssssssssssstonenegra",
+        "concrete_powder_orange": "brown_terracotta",
+        "concrete_powder_brown": "brown_terracotta"
+      },
+      "name": "default"
+    }
+  }
+}

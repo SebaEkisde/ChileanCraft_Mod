@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "concrete_black": "sssssssssssssstonenegra",
+        "concrete_powder_orange": "gredacocida",
+        "concrete_powder_brown": "gredacocida"
+      },
+      "name": "default"
+    }
+  }
+}

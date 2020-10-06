@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "funa3"
+      },
+      "name": "default"
+    }
+  }
+}
