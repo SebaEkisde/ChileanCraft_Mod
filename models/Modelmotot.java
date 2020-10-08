@@ -2,7 +2,8 @@
 // Exported for Minecraft version 1.12
 // Paste this class into your mod and generate all required imports
 
-public static class Modelmototot extends ModelBase {
+public static class Modelmotot extends ModelBase {
+	private final ModelRenderer bone38;
 	private final ModelRenderer bone;
 	private final ModelRenderer bone17;
 	private final ModelRenderer bone35;
@@ -39,10 +40,31 @@ public static class Modelmototot extends ModelBase {
 	private final ModelRenderer bone31;
 	private final ModelRenderer bone29;
 	private final ModelRenderer bone32;
+	private final ModelRenderer bone37;
 
-	public Modelmototot() {
+	public Modelmotot() {
 		textureWidth = 128;
 		textureHeight = 128;
+
+		bone38 = new ModelRenderer(this);
+		bone38.setRotationPoint(0.0F, 24.0F, -3.0F);
+		bone38.cubeList.add(new ModelBox(bone38, 2, 56, -4.99F, -5.0F, -0.001F, 10, 2, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 57, -4.0F, -5.001F, -6.0F, 8, 2, 6, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 43, -4.499F, -12.6F, 1.0F, 9, 1, 1, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 11, 51, -2.99F, -6.0F, 6.999F, 1, 3, 5, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 35, 43, -3.01F, -12.1F, 3.925F, 7, 3, 4, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 45, -3.99F, -5.8F, 4.8F, 8, 1, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 52, -3.995F, -9.7F, 6.0F, 8, 4, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 35, 43, -3.99F, -12.1F, 3.925F, 1, 3, 4, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 2, 56, -4.99F, -5.0F, 2.999F, 10, 2, 5, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 45, -3.2F, -15.201F, 13.3F, 6, 1, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 41, 50, -3.998F, -14.601F, 16.9F, 8, 1, 1, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 3, 50, 2.2F, -15.202F, 13.3F, 1, 1, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 40, 39, -3.999F, -14.6F, 14.2F, 8, 1, 3, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 35, 43, -4.0F, -14.1F, 13.925F, 8, 2, 4, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 54, -4.5F, -13.6F, 1.0F, 9, 1, 8, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 0, 55, -4.5F, -12.6F, 1.5F, 9, 1, 8, 0.0F, false));
+		bone38.cubeList.add(new ModelBox(bone38, 45, 22, -2.499F, -9.43F, -12.85F, 5, 2, 4, 0.0F, false));
 
 		bone = new ModelRenderer(this);
 		bone.setRotationPoint(0.0F, 24.0F, 0.0F);
@@ -255,14 +277,14 @@ public static class Modelmototot extends ModelBase {
 		bone20.cubeList.add(new ModelBox(bone20, 4, 49, -0.998F, 6.3F, -16.5286F, 2, 1, 3, 0.0F, false));
 
 		bone22 = new ModelRenderer(this);
-		bone22.setRotationPoint(0.0F, 20.0F, -15.0F);
-		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -2.0F, -1.55F, 29.95F, 4, 3, 1, 0.0F, false));
-		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -1.0F, -1.55F, 28.95F, 2, 3, 1, 0.0F, false));
-		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -2.0F, -1.5F, 23.0F, 4, 3, 1, 0.0F, false));
-		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -1.0F, -1.5F, 24.0F, 2, 3, 1, 0.0F, false));
+		bone22.setRotationPoint(0.0F, 20.0F, 12.0F);
+		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -2.0F, -1.55F, 2.95F, 4, 3, 1, 0.0F, false));
+		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -1.0F, -1.55F, 1.95F, 2, 3, 1, 0.0F, false));
+		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -2.0F, -1.5F, -4.0F, 4, 3, 1, 0.0F, false));
+		bone22.cubeList.add(new ModelBox(bone22, 10, 44, -1.0F, -1.5F, -3.0F, 2, 3, 1, 0.0F, false));
 
 		bone23 = new ModelRenderer(this);
-		bone23.setRotationPoint(0.0F, 4.0F, 15.0F);
+		bone23.setRotationPoint(0.0F, 4.0F, -12.0F);
 		bone22.addChild(bone23);
 		bone23.cubeList.add(new ModelBox(bone23, 10, 44, -2.0F, -1.0F, 10.5F, 4, 1, 3, 0.0F, false));
 		bone23.cubeList.add(new ModelBox(bone23, 10, 44, -1.0F, -2.0F, 10.5F, 2, 1, 3, 0.0F, false));
@@ -271,7 +293,7 @@ public static class Modelmototot extends ModelBase {
 		bone23.cubeList.add(new ModelBox(bone23, 10, 44, -1.0F, -7.9F, 10.5F, 2, 2, 3, 0.0F, false));
 
 		bone24 = new ModelRenderer(this);
-		bone24.setRotationPoint(0.0F, 4.0F, 15.0F);
+		bone24.setRotationPoint(0.0F, 4.0F, -12.0F);
 		bone22.addChild(bone24);
 		setRotationAngle(bone24, 0.7854F, 0.0F, 0.0F);
 		bone24.cubeList.add(new ModelBox(bone24, 10, 44, -1.999F, 4.3495F, 14.1919F, 4, 3, 1, 0.0F, false));
@@ -288,7 +310,7 @@ public static class Modelmototot extends ModelBase {
 		bone25.cubeList.add(new ModelBox(bone25, 10, 44, -0.995F, 4.3553F, 11.7262F, 2, 1, 3, 0.0F, false));
 
 		bone26 = new ModelRenderer(this);
-		bone26.setRotationPoint(0.0F, 4.0F, 15.0F);
+		bone26.setRotationPoint(0.0F, 4.0F, -12.0F);
 		bone22.addChild(bone26);
 		setRotationAngle(bone26, -0.7854F, 0.0F, 0.0F);
 		bone26.cubeList.add(new ModelBox(bone26, 10, 44, -1.999F, -12.5919F, 1.7919F, 4, 3, 1, 0.0F, false));
@@ -330,10 +352,16 @@ public static class Modelmototot extends ModelBase {
 		bone32.setRotationPoint(0.0F, 24.0F, 0.0F);
 		setRotationAngle(bone32, 0.3491F, 0.0F, 0.0F);
 		bone32.cubeList.add(new ModelBox(bone32, 54, 35, 0.4F, -14.201F, -14.5501F, 1, 1, 2, 0.0F, false));
+
+		bone37 = new ModelRenderer(this);
+		bone37.setRotationPoint(0.0F, 0.0F, 0.0F);
+		bone32.addChild(bone37);
+
 	}
 
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		bone38.render(f5);
 		bone.render(f5);
 		bone3.render(f5);
 		bone4.render(f5);
@@ -354,7 +382,7 @@ public static class Modelmototot extends ModelBase {
 
 	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
 		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
-		this.bone22.rotateAngleZ = f2;
-		this.bone10.rotateAngleZ = f2;
+		this.bone22.rotateAngleX = f2;
+		this.bone10.rotateAngleX = f2;
 	}
 }
