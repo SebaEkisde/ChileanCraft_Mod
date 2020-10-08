@@ -7,24 +7,18 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.potion.PotionEffect;
 import net.minecraft.item.ItemStack;
-import net.minecraft.init.MobEffects;
-import net.minecraft.init.Blocks;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.chilecraft.item.ItemPiochet2;
 import net.mcreator.chilecraft.item.ItemHuaso;
-import net.mcreator.chilecraft.item.ItemFijiman;
 import net.mcreator.chilecraft.item.ItemEspadaDeArturoPrad;
 import net.mcreator.chilecraft.item.ItemDylan;
 import net.mcreator.chilecraft.item.ItemDoncomedia;
@@ -135,43 +129,6 @@ public class ProcedurePepe extends ElementsChileanCraftMod.ModElement {
 									}
 								}
 							}
-						}
-					}
-				}
-			}
-		}
-		if ((((entity instanceof EntityPlayer) ? ((EntityPlayer) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY)
-				.getItem() == new ItemStack(ItemFijiman.helmet, (int) (1)).getItem())) {
-			if ((((entity instanceof EntityPlayer) ? ((EntityPlayer) entity).inventory.armorInventory.get(2) : ItemStack.EMPTY)
-					.getItem() == new ItemStack(ItemFijiman.body, (int) (1)).getItem())) {
-				if ((((entity instanceof EntityPlayer) ? ((EntityPlayer) entity).inventory.armorInventory.get(1) : ItemStack.EMPTY)
-						.getItem() == new ItemStack(ItemFijiman.legs, (int) (1)).getItem())) {
-					if ((((entity instanceof EntityPlayer) ? ((EntityPlayer) entity).inventory.armorInventory.get(0) : ItemStack.EMPTY)
-							.getItem() == new ItemStack(ItemFijiman.boots, (int) (1)).getItem())) {
-						if (entity instanceof EntityLivingBase)
-							((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 20, (int) 1, (false), (false)));
-						if (entity instanceof EntityLivingBase)
-							((EntityLivingBase) entity)
-									.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, (int) 20, (int) 0, (false), (false)));
-						if (entity instanceof EntityLivingBase)
-							((EntityLivingBase) entity)
-									.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, (int) 20, (int) 1, (false), (false)));
-						if (((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.FLOWING_WATER
-								.getDefaultState().getBlock())
-								|| ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.WATER.getDefaultState()
-										.getBlock()))
-								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FLOWING_WATER
-										.getDefaultState().getBlock())
-										|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.WATER
-												.getDefaultState().getBlock())))) {
-							if (entity instanceof EntityLivingBase)
-								((EntityLivingBase) entity)
-										.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, (int) 20, (int) 1, (false), (false)));
-							if (entity instanceof EntityLivingBase)
-								((EntityLivingBase) entity)
-										.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, (int) 20, (int) 1, (false), (false)));
-							if (entity instanceof EntityLivingBase)
-								((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 20, (int) 0, (false), (false)));
 						}
 					}
 				}

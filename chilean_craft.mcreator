@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 18,
-    "ENTITY": 106
+    "ENTITY": 106,
+    "GUI": 18
   },
   "mod_elements": [
     {
@@ -5026,28 +5026,7 @@
       "locked_code": false,
       "ids": {},
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -5058,28 +5037,7 @@
       "locked_code": false,
       "ids": {},
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -9391,10 +9349,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -9545,10 +9499,6 @@
         "dependencies": [
           {
             "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -10132,6 +10082,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chilean_blocks"
+    },
+    {
+      "name": "BanderaMapuche",
+      "type": "block",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bandera_mapuche"
+    },
+    {
+      "name": "Banderachile",
+      "type": "block",
+      "sortid": 790,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banderachile"
+    },
+    {
+      "name": "Panuleorojo",
+      "type": "armor",
+      "sortid": 791,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panuleorojo",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "FunaorLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "funaor_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Funaor",
+      "type": "item",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "funaor"
     }
   ],
   "variable_elements": [
@@ -10175,6 +10179,12 @@
       "name": "cale3",
       "type": "number",
       "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "articulas",
+      "type": "number",
+      "scope": "player_persistent",
       "value": "0"
     }
   ],
@@ -10417,8 +10427,8 @@
       "item.merluza.name": "Merluza cruda",
       "splash_potion.effect.risa": "Splash Muerto de risa",
       "item.copperaxe.name": "Hacha de cobre",
-      "item.chilean_craft.gorrolegs": "Gorro Leggings",
       "item.chilean_craft.cabra": "Cabra Spawn Egg",
+      "item.chilean_craft.gorrolegs": "Gorro Leggings",
       "item.chilean_craft.cuchillo": "Cuchillo",
       "item.jugomanzan.name": "Jugo de manzana",
       "item.chilean_craft.gorrocomediaboots": "Doncomedia Boots",
@@ -10452,6 +10462,7 @@
       "entity.chilean_craft.espanol2": "Español",
       "block.chilean_craft.fencearaucary": "Valla de araucaria",
       "item.caballlo.name": "Carne de caballlo cruda",
+      "item.panuleorojolegs.name": "Panuleorojo Leggings",
       "potion.effect.risa": "Muerto de risa",
       "block.chilean_craft.greda2": "Compostera de greda cruda",
       "item.seedscebolla.name": "Cebolla",
@@ -10624,6 +10635,8 @@
       "tile.cebolla0.name": "Cebolla",
       "item.chilean_craft.oil": "Aceite de maravilla",
       "item.chilean_craft.felipito": "Felipe camiroaga ahogado Spawn Egg",
+      "tile.bandera_mapuche.name": "Bandera mapuche grande",
+      "tile.banderachile.name": "Bandera chilena grande",
       "itemGroup.tabchilean_food": "Chilean Food",
       "item.chilean_craft.tromp": "Trompo Spawn Egg",
       "item.dylanhelmet.name": "Bolsa de Dylantero",
@@ -10841,6 +10854,7 @@
       "entity.chilean_craft.trauco": "Trauco",
       "item.poncho_mapucheboots.name": "Poncho Mapuche Boots",
       "item.fijimanlegs.name": "Pantalones del capitan fiji",
+      "item.panuleorojohelmet.name": "Pañuleo rojo ",
       "item.chilean_craft.caballo32": "Carne de caballo cocida",
       "item.sacodepapaboots.name": "Saco ",
       "item.chilean_craft.tioaceite": "Tio aceite Spawn Egg",
@@ -11060,6 +11074,7 @@
       "item.chilean_craft.buceohelmet": "Buceo Helmet",
       "item.empanadacrda.name": "Empanada de queso cruda",
       "entity.trompo_5.name": "Trompo",
+      "item.panuleorojobody.name": "Panuleorojo Body",
       "tile.tomate2.name": "Mata de tomate",
       "item.milcao.name": "Milcao",
       "item.chilean_craft.huasaelegante_leggings": "Pantalones de huasa elegente",
@@ -11221,12 +11236,14 @@
       "item.chilean_craft.semillatomate": "Semilla de tomate limachino",
       "item.chilean_craft.rtlegs": "Rt Leggings",
       "entity.trompo_2.name": "Trompo",
+      "item.panuleorojoboots.name": "Panuleorojo Boots",
       "item.merluzacocida.name": "Merluza cocida",
       "item.chilean_craft.doncomedia_helmet": "Bolsa de Don comedia",
       "entity.aldeanohaitiano.name": "Aldeano Haitiano",
       "tile.mantecador.name": "Mantecadora",
       "block.chilean_craft.terracotsflowerpot": "Macetero de terracota",
       "item.espadadearturoprad.name": "Espada De Arturo Prat",
+      "item.funaor.name": "Funaor",
       "item.reinetas.name": "Reineta",
       "item.huasaelegantehelmet.name": "Huasaelegante Helmet",
       "item.egg.name": "Huevo duro",

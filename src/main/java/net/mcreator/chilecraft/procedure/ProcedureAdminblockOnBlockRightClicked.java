@@ -6,11 +6,10 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityItem;
 
+import net.mcreator.chilecraft.item.ItemFunaor;
 import net.mcreator.chilecraft.block.BlockCopperblock;
 import net.mcreator.chilecraft.block.BlockBrdisds;
 import net.mcreator.chilecraft.block.BlockAraucaria;
@@ -26,10 +25,6 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AdminblockOnBlockRightClicked!");
-			return;
-		}
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure AdminblockOnBlockRightClicked!");
 			return;
@@ -46,7 +41,6 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 			System.err.println("Failed to load dependency world for procedure AdminblockOnBlockRightClicked!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
@@ -79,16 +73,15 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 			}
 		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockAraucaria.block.getDefaultState().getBlock())) {
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemFunaor.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
 			{
 				MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
 				if (mcserv != null)
 					mcserv.getPlayerList().sendMessage(new TextComponentString("funador creado"));
-			}
-			{
-				ItemStack _stack = ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY);
-				if (!_stack.hasTagCompound())
-					_stack.setTagCompound(new NBTTagCompound());
-				_stack.getTagCompound().setBoolean("funador", (true));
 			}
 		}
 	}
