@@ -9,7 +9,9 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.EntityItem;
 
+import net.mcreator.chilecraft.item.ItemParticulador;
 import net.mcreator.chilecraft.item.ItemFunaor;
+import net.mcreator.chilecraft.block.BlockCopperblockcoaled;
 import net.mcreator.chilecraft.block.BlockCopperblock;
 import net.mcreator.chilecraft.block.BlockBrdisds;
 import net.mcreator.chilecraft.block.BlockAraucaria;
@@ -82,6 +84,14 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 				MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
 				if (mcserv != null)
 					mcserv.getPlayerList().sendMessage(new TextComponentString("funador creado"));
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockCopperblockcoaled.block.getDefaultState()
+				.getBlock())) {
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemParticulador.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
 			}
 		}
 	}

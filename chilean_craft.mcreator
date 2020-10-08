@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 106,
+    "ENTITY": 108,
     "GUI": 18
   },
   "mod_elements": [
@@ -10136,6 +10136,138 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "funaor"
+    },
+    {
+      "name": "Particulaa",
+      "type": "procedure",
+      "sortid": 793,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulaa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Motot",
+      "type": "mob",
+      "sortid": 794,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 107,
+        "1": 108
+      },
+      "registry_name": "motot"
+    },
+    {
+      "name": "MototOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 795,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motot_on_entity_tick_update",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ParticuladorItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Particulador",
+      "type": "item",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador"
+    },
+    {
+      "name": "ParticuladorRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 797,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10183,9 +10315,9 @@
     },
     {
       "name": "articulas",
-      "type": "number",
+      "type": "logic",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -10968,6 +11100,7 @@
       "item.gorrobody.name": "Gorro Body",
       "item.chilean_craft.semillauva": "Semilla de uva moscatel",
       "tile.cardo.name": "Cardo",
+      "entity.motot.name": "Moto del xoda",
       "advancements.brindo.descr": "Craftea una chicha",
       "item.chorrilana.name": "Chorrillana",
       "item.chilean_craft.capitancororhelmet": "Bolsa del Capitan coro",
@@ -11222,6 +11355,7 @@
       "tile.tomate6.name": "Mata de tomate",
       "item.himno.name": "Himno nacional",
       "item.chilean_craft.chorrilana": "Chorrillana",
+      "item.particulador.name": "Particulador",
       "item.poncho_mapuchelegs.name": "Poncho Mapuche Leggings",
       "tile.parra7.name": "Parra",
       "item.chilean_craft.dylanlegs": "Dylan Leggings",
