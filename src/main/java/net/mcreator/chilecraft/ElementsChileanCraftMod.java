@@ -203,6 +203,8 @@ public class ElementsChileanCraftMod implements IFuelHandler, IWorldGenerator {
 				return new GuiTioaceitregui2.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiDealerguui.GUIID)
 				return new GuiDealerguui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiRappi.GUIID)
+				return new GuiRappi.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -240,6 +242,8 @@ public class ElementsChileanCraftMod implements IFuelHandler, IWorldGenerator {
 				return new GuiTioaceitregui2.GuiWindow(world, x, y, z, player);
 			if (id == GuiDealerguui.GUIID)
 				return new GuiDealerguui.GuiWindow(world, x, y, z, player);
+			if (id == GuiRappi.GUIID)
+				return new GuiRappi.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
