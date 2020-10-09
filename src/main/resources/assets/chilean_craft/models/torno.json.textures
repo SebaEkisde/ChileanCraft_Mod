@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "anvil_base",
+        "3": "planks_spruce"
+      },
+      "name": "default"
+    }
+  }
+}

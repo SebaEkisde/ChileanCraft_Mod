@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_spruce_log",
+        "1": "anvil_base",
+        "2": "anvil_base",
+        "3": "anvil_base",
+        "4": "sssssssssssssstonenegra",
+        "5": "anvil_base"
+      },
+      "name": "default"
+    }
+  }
+}

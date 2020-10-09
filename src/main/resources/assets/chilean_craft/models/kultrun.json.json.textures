@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "5et",
+        "2": "tyt",
+        "3": "trh",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

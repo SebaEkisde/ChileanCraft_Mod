@@ -1,0 +1,10 @@
+{
+  "parent": "chilean_craft:custom/modelbanderamapu",
+  "textures": {
+    "all": "chilean_craft:blocks/69d38c9a952b843d8f85dc5e320e13f1",
+    "particle": "chilean_craft:blocks/69d38c9a952b843d8f85dc5e320e13f1",
+    "0": "chilean_craft:blocks/planks_oak",
+    "2": "chilean_craft:blocks/69d38c9a952b843d8f85dc5e320e13f1",
+    "3": "chilean_craft:blocks/69d38c9a952b843d8f85dc5e320e13f1_-_copia"
+  }
+}

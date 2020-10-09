@@ -27,25 +27,25 @@ public class ProcedureMetroCommandExecuted extends ElementsChileanCraftMod.ModEl
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
-		if ((((((entity.posZ) > ((ChileanCraftModVariables.WorldVariables.get(world).metro3) - 10))
-				&& ((entity.posZ) < ((ChileanCraftModVariables.WorldVariables.get(world).metro3) + 10)))
-				&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 10))
-						&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 10))))
-				&& ((((entity.posX) > ((ChileanCraftModVariables.WorldVariables.get(world).metro1) - 10))
-						&& ((entity.posX) < ((ChileanCraftModVariables.WorldVariables.get(world).metro1) + 10)))
-						&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 10))
-								&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 10)))))) {
+		if ((((((entity.posZ) > ((ChileanCraftModVariables.WorldVariables.get(world).metro3) - 200))
+				&& ((entity.posZ) < ((ChileanCraftModVariables.WorldVariables.get(world).metro3) + 200)))
+				&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 200))
+						&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 200))))
+				&& ((((entity.posX) > ((ChileanCraftModVariables.WorldVariables.get(world).metro1) - 200))
+						&& ((entity.posX) < ((ChileanCraftModVariables.WorldVariables.get(world).metro1) + 200)))
+						&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 200))
+								&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 200)))))) {
 			entity.setPositionAndUpdate((ChileanCraftModVariables.WorldVariables.get(world).metro1),
 					(ChileanCraftModVariables.WorldVariables.get(world).metro2), (ChileanCraftModVariables.WorldVariables.get(world).metro3));
 		}
-		if ((!(((((entity.posZ) > ((ChileanCraftModVariables.WorldVariables.get(world).metro3) - 10))
-				&& ((entity.posZ) < ((ChileanCraftModVariables.WorldVariables.get(world).metro3) + 10)))
-				&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 10))
-						&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 10))))
-				&& ((((entity.posX) > ((ChileanCraftModVariables.WorldVariables.get(world).metro1) - 10))
-						&& ((entity.posX) < ((ChileanCraftModVariables.WorldVariables.get(world).metro1) + 10)))
-						&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 10))
-								&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 10))))))) {
+		if ((!(((((entity.posZ) > ((ChileanCraftModVariables.WorldVariables.get(world).metro3) - 200))
+				&& ((entity.posZ) < ((ChileanCraftModVariables.WorldVariables.get(world).metro3) + 200)))
+				&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 200))
+						&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 200))))
+				&& ((((entity.posX) > ((ChileanCraftModVariables.WorldVariables.get(world).metro1) - 200))
+						&& ((entity.posX) < ((ChileanCraftModVariables.WorldVariables.get(world).metro1) + 200)))
+						&& (((entity.posY) < ((ChileanCraftModVariables.WorldVariables.get(world).metro2) + 200))
+								&& ((entity.posY) > ((ChileanCraftModVariables.WorldVariables.get(world).metro2) - 200))))))) {
 			if (entity instanceof EntityPlayer && !entity.world.isRemote) {
 				((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Estas muy lejos del metro"), (true));
 			}

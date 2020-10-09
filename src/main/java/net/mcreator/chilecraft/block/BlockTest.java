@@ -1,40 +1,12 @@
 
 package net.mcreator.chilecraft.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.gen.feature.WorldGenFlowers;
-import net.minecraft.world.gen.IChunkGenerator;
-import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockFlower;
-import net.minecraft.block.Block;
-
-import net.mcreator.chilecraft.ElementsChileanCraftMod;
-
-import java.util.Random;
-
 @ElementsChileanCraftMod.ModElement.Tag
 public class BlockTest extends ElementsChileanCraftMod.ModElement {
+
 	@GameRegistry.ObjectHolder("chilean_craft:test")
 	public static final Block block = null;
+
 	public BlockTest(ElementsChileanCraftMod instance) {
 		super(instance, 789);
 	}
@@ -54,18 +26,23 @@ public class BlockTest extends ElementsChileanCraftMod.ModElement {
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
+
 		if (dimID == 0)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
+
 		for (int i = 0; i < 5; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
 			int l14 = chunkZ + random.nextInt(16) + 8;
 			(new WorldGenFlowers(((BlockFlower) block), BlockFlower.EnumFlowerType.DANDELION)).generate(world, random, new BlockPos(l6, i11, l14));
 		}
+
 	}
+
 	public static class BlockCustomFlower extends BlockFlower {
+
 		public BlockCustomFlower() {
 			setSoundType(SoundType.GROUND);
 			setCreativeTab(CreativeTabs.DECORATIONS);
@@ -74,6 +51,7 @@ public class BlockTest extends ElementsChileanCraftMod.ModElement {
 			setLightLevel(0F);
 			setUnlocalizedName("test");
 			setRegistryName("test");
+
 		}
 
 		@Override
@@ -103,5 +81,6 @@ public class BlockTest extends ElementsChileanCraftMod.ModElement {
 				list.add(new ItemStack(this, 1, blockflower$enumflowertype.getMeta()));
 			}
 		}
+
 	}
 }

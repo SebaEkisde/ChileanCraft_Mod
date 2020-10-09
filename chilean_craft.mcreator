@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 106,
-    "GUI": 18
+    "ENTITY": 108,
+    "GUI": 19
   },
   "mod_elements": [
     {
@@ -10141,6 +10141,212 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test"
+    },
+    {
+      "name": "BanderaMapuche",
+      "type": "block",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bandera_mapuche"
+    },
+    {
+      "name": "FunaorLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "funaor_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Motot",
+      "type": "mob",
+      "sortid": 794,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 107,
+        "1": 108
+      },
+      "registry_name": "motot"
+    },
+    {
+      "name": "Particulador",
+      "type": "item",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador"
+    },
+    {
+      "name": "Panuleorojo",
+      "type": "armor",
+      "sortid": 791,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panuleorojo",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Rappi",
+      "type": "gui",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 19
+      },
+      "registry_name": "rappi"
+    },
+    {
+      "name": "Rapi",
+      "type": "block",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rapi"
+    },
+    {
+      "name": "ParticuladorRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 797,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Funaor",
+      "type": "item",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "funaor"
+    },
+    {
+      "name": "Particulaa",
+      "type": "procedure",
+      "sortid": 793,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulaa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banderachile",
+      "type": "block",
+      "sortid": 790,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banderachile"
+    },
+    {
+      "name": "MototOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 795,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motot_on_entity_tick_update",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ParticuladorItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particulador_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10185,6 +10391,12 @@
       "type": "number",
       "scope": "world",
       "value": "0"
+    },
+    {
+      "name": "articulas",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -10426,8 +10638,9 @@
       "item.merluza.name": "Merluza cruda",
       "splash_potion.effect.risa": "Splash Muerto de risa",
       "item.copperaxe.name": "Hacha de cobre",
-      "item.chilean_craft.cabra": "Cabra Spawn Egg",
       "item.chilean_craft.gorrolegs": "Gorro Leggings",
+      "item.chilean_craft.cabra": "Cabra Spawn Egg",
+      "tile.rapi.name": "Rapi",
       "item.chilean_craft.cuchillo": "Cuchillo",
       "item.jugomanzan.name": "Jugo de manzana",
       "item.chilean_craft.gorrocomediaboots": "Doncomedia Boots",
@@ -10621,7 +10834,6 @@
       "item.chilean_craft.doncomediahelmet": "Bolsa de Don comedia",
       "block.chilean_craft.parrilla2": "Parrilla",
       "item.chilean_craft.chargedcopperhelmetlegs": "Copperhelmet Leggings",
-      "tile.test.name": "Test",
       "tile.tomate5.name": "Mata de tomate",
       "item.coppernuggetc.name": "Pepita De Cobre Conductora",
       "item.semilaparra.name": "Semilla de uva roja",

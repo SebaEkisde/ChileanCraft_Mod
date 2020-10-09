@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sssssssssssssstonenegra",
+        "1": "anvil_base",
+        "2": "stripped_oak_log"
+      },
+      "name": "default"
+    }
+  }
+}
