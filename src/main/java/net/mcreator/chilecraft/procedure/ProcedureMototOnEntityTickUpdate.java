@@ -1,17 +1,8 @@
 package net.mcreator.chilecraft.procedure;
 
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.init.MobEffects;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.chilecraft.ElementsChileanCraftMod;
-
-import java.util.Map;
-import java.util.Collection;
-
 @ElementsChileanCraftMod.ModElement.Tag
 public class ProcedureMototOnEntityTickUpdate extends ElementsChileanCraftMod.ModElement {
+
 	public ProcedureMototOnEntityTickUpdate(ElementsChileanCraftMod instance) {
 		super(instance, 795);
 	}
@@ -21,7 +12,9 @@ public class ProcedureMototOnEntityTickUpdate extends ElementsChileanCraftMod.Mo
 			System.err.println("Failed to load dependency entity for procedure MototOnEntityTickUpdate!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if ((!(new Object() {
 			boolean check() {
 				if (entity instanceof EntityLivingBase) {
@@ -42,5 +35,7 @@ public class ProcedureMototOnEntityTickUpdate extends ElementsChileanCraftMod.Mo
 				((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.NAUSEA, (int) 5000, (int) 1, (false), (false)));
 			entity.getEntityData().setBoolean("c", (false));
 		}
+
 	}
+
 }

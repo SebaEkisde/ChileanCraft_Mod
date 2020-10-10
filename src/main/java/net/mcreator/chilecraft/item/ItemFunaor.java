@@ -1,29 +1,12 @@
 
 package net.mcreator.chilecraft.item;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-
-import net.mcreator.chilecraft.procedure.ProcedureArma;
-import net.mcreator.chilecraft.ElementsChileanCraftMod;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsChileanCraftMod.ModElement.Tag
 public class ItemFunaor extends ElementsChileanCraftMod.ModElement {
+
 	@GameRegistry.ObjectHolder("chilean_craft:funaor")
 	public static final Item block = null;
+
 	public ItemFunaor(ElementsChileanCraftMod instance) {
 		super(instance, 792);
 	}
@@ -38,7 +21,9 @@ public class ItemFunaor extends ElementsChileanCraftMod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("chilean_craft:funaor", "inventory"));
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 1;
@@ -77,11 +62,16 @@ public class ItemFunaor extends ElementsChileanCraftMod.ModElement {
 			World world = entity.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				$_dependencies.put("world", world);
+
 				ProcedureArma.executeProcedure($_dependencies);
 			}
 			return true;
 		}
+
 	}
+
 }

@@ -10270,6 +10270,24 @@
       }
     },
     {
+      "name": "Pesos20000",
+      "type": "item",
+      "sortid": 801,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pesos_20000"
+    },
+    {
+      "name": "R434",
+      "type": "recipe",
+      "sortid": 806,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_434"
+    },
+    {
       "name": "Monedero",
       "type": "gui",
       "sortid": 798,
@@ -10279,6 +10297,33 @@
         "0": 20
       },
       "registry_name": "monedero"
+    },
+    {
+      "name": "R10000",
+      "type": "recipe",
+      "sortid": 803,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_10000"
+    },
+    {
+      "name": "R342",
+      "type": "recipe",
+      "sortid": 807,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_342"
+    },
+    {
+      "name": "R2000",
+      "type": "recipe",
+      "sortid": 802,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_2000"
     },
     {
       "name": "Pesos2000",
@@ -10299,31 +10344,13 @@
       "registry_name": "pesos_10000"
     },
     {
-      "name": "Pesos20000",
-      "type": "item",
-      "sortid": 801,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pesos_20000"
-    },
-    {
-      "name": "R2000",
+      "name": "R1000",
       "type": "recipe",
-      "sortid": 802,
+      "sortid": 805,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "r_2000"
-    },
-    {
-      "name": "R10000",
-      "type": "recipe",
-      "sortid": 803,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "r_10000"
+      "registry_name": "r_1000"
     },
     {
       "name": "R200000",
@@ -10335,31 +10362,13 @@
       "registry_name": "r_200000"
     },
     {
-      "name": "R1000",
-      "type": "recipe",
-      "sortid": 805,
+      "name": "Test",
+      "type": "plant",
+      "sortid": 789,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "r_1000"
-    },
-    {
-      "name": "R434",
-      "type": "recipe",
-      "sortid": 806,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "r_434"
-    },
-    {
-      "name": "R342",
-      "type": "recipe",
-      "sortid": 807,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "r_342"
+      "registry_name": "test"
     }
   ],
   "variable_elements": [
@@ -10650,10 +10659,10 @@
       "tile.maiz0.name": "Maiz",
       "item.merluza.name": "Merluza cruda",
       "splash_potion.effect.risa": "Splash Muerto de risa",
-      "item.pesos_2000.name": "2000 pesos",
       "item.copperaxe.name": "Hacha de cobre",
       "item.chilean_craft.cabra": "Cabra Spawn Egg",
       "item.chilean_craft.gorrolegs": "Gorro Leggings",
+      "tile.rapi.name": "Rapi",
       "item.chilean_craft.cuchillo": "Cuchillo",
       "item.jugomanzan.name": "Jugo de manzana",
       "item.chilean_craft.gorrocomediaboots": "Doncomedia Boots",
@@ -10684,11 +10693,9 @@
       "item.chargedcopperhelmetlegs.name": "Copperhelmet Leggings",
       "item.chilean_craft.maizsemilla": "Granos de choclo",
       "item.chilean_craft.chargedcopperhelmet_helmet": "Casco de cobre conductor",
-      "item.pesos_10000.name": "10000 pesos",
       "entity.chilean_craft.espanol2": "Español",
       "block.chilean_craft.fencearaucary": "Valla de araucaria",
       "item.caballlo.name": "Carne de caballlo cruda",
-      "item.panuleorojolegs.name": "Panuleorojo Leggings",
       "potion.effect.risa": "Muerto de risa",
       "block.chilean_craft.greda2": "Compostera de greda cruda",
       "item.seedscebolla.name": "Cebolla",
@@ -10861,8 +10868,6 @@
       "tile.cebolla0.name": "Cebolla",
       "item.chilean_craft.oil": "Aceite de maravilla",
       "item.chilean_craft.felipito": "Felipe camiroaga ahogado Spawn Egg",
-      "tile.bandera_mapuche.name": "Bandera mapuche grande",
-      "tile.banderachile.name": "Bandera chilena grande",
       "itemGroup.tabchilean_food": "Chilean Food",
       "item.chilean_craft.tromp": "Trompo Spawn Egg",
       "item.dylanhelmet.name": "Bolsa de Dylantero",
@@ -11080,7 +11085,6 @@
       "entity.chilean_craft.trauco": "Trauco",
       "item.poncho_mapucheboots.name": "Poncho Mapuche Boots",
       "item.fijimanlegs.name": "Pantalones del capitan fiji",
-      "item.panuleorojohelmet.name": "Pañuleo rojo ",
       "item.chilean_craft.caballo32": "Carne de caballo cocida",
       "item.sacodepapaboots.name": "Saco ",
       "item.chilean_craft.tioaceite": "Tio aceite Spawn Egg",
@@ -11301,7 +11305,6 @@
       "item.chilean_craft.buceohelmet": "Buceo Helmet",
       "item.empanadacrda.name": "Empanada de queso cruda",
       "entity.trompo_5.name": "Trompo",
-      "item.panuleorojobody.name": "Panuleorojo Body",
       "tile.tomate2.name": "Mata de tomate",
       "item.milcao.name": "Milcao",
       "item.chilean_craft.huasaelegante_leggings": "Pantalones de huasa elegente",
@@ -11367,7 +11370,6 @@
       "item.chilean_craft.uchilehelmet": "Uchile Helmet",
       "item.molotovd.name": "Molotov",
       "block.chilean_craft.copihue": "Copihue",
-      "item.pesos_20000.name": "20000 pesos",
       "block.chilean_craft.pipa": "Pipa de roble",
       "item.chilean_craft.pinonc": "Piñones cocinados",
       "item.watonloyola.name": "El guaton loyola",
@@ -11450,7 +11452,6 @@
       "tile.tomate6.name": "Mata de tomate",
       "item.himno.name": "Himno nacional",
       "item.chilean_craft.chorrilana": "Chorrillana",
-      "item.particulador.name": "Particulador",
       "item.poncho_mapuchelegs.name": "Poncho Mapuche Leggings",
       "tile.parra7.name": "Parra",
       "item.chilean_craft.dylanlegs": "Dylan Leggings",
@@ -11465,14 +11466,12 @@
       "item.chilean_craft.semillatomate": "Semilla de tomate limachino",
       "item.chilean_craft.rtlegs": "Rt Leggings",
       "entity.trompo_2.name": "Trompo",
-      "item.panuleorojoboots.name": "Panuleorojo Boots",
       "item.merluzacocida.name": "Merluza cocida",
       "item.chilean_craft.doncomedia_helmet": "Bolsa de Don comedia",
       "entity.aldeanohaitiano.name": "Aldeano Haitiano",
       "tile.mantecador.name": "Mantecadora",
       "block.chilean_craft.terracotsflowerpot": "Macetero de terracota",
       "item.espadadearturoprad.name": "Espada De Arturo Prat",
-      "item.funaor.name": "Funaor",
       "item.reinetas.name": "Reineta",
       "item.huasaelegantehelmet.name": "Huasaelegante Helmet",
       "item.egg.name": "Huevo duro",
