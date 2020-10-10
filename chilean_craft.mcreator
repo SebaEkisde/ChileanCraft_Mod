@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 20,
-    "ENTITY": 108
+    "ENTITY": 108,
+    "GUI": 20
   },
   "mod_elements": [
     {
@@ -10365,6 +10365,39 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "r_200000"
+    },
+    {
+      "name": "MilpesosRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 808,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milpesos_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
