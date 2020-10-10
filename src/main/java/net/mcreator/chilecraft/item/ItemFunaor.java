@@ -8,12 +8,18 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.chilecraft.procedure.ProcedureFunaorRightClickedOnBlock;
 import net.mcreator.chilecraft.procedure.ProcedureArma;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 
@@ -66,6 +72,25 @@ public class ItemFunaor extends ElementsChileanCraftMod.ModElement {
 		@SideOnly(Side.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public EnumActionResult onItemUseFirst(EntityPlayer entity, World world, BlockPos pos, EnumFacing direction, float hitX, float hitY,
+				float hitZ, EnumHand hand) {
+			EnumActionResult retval = super.onItemUseFirst(entity, world, pos, direction, hitX, hitY, hitZ, hand);
+			ItemStack itemstack = entity.getHeldItem(hand);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureFunaorRightClickedOnBlock.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 
 		@Override

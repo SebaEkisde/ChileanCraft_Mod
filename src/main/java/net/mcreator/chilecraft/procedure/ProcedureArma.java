@@ -1,6 +1,8 @@
 package net.mcreator.chilecraft.procedure;
 
 import net.minecraft.world.World;
+import net.minecraft.world.GameType;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
@@ -25,7 +27,10 @@ public class ProcedureArma extends ElementsChileanCraftMod.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
+		entity.getEntityData().setBoolean("cer", (true));
 		entity.setPositionAndUpdate((ChileanCraftModVariables.WorldVariables.get(world).carcel),
 				((ChileanCraftModVariables.WorldVariables.get(world).cale2) + 1), (ChileanCraftModVariables.WorldVariables.get(world).cale3));
+		if (entity instanceof EntityPlayer)
+			((EntityPlayer) entity).setGameType(GameType.ADVENTURE);
 	}
 }
