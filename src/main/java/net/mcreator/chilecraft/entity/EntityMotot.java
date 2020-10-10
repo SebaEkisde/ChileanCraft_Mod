@@ -149,6 +149,7 @@ public class EntityMotot extends ElementsChileanCraftMod.ModElement {
 			Entity entity = this;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				ProcedureMototOnEntityTickUpdate.executeProcedure($_dependencies);
 			}
 		}
