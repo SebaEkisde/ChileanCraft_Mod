@@ -3,8 +3,10 @@ package net.mcreator.chilecraft.entity;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 import net.minecraft.world.biome.Biome;
@@ -24,19 +26,18 @@ import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.model.ModelVillager;
 
 import net.mcreator.chilecraft.procedure.ProcedureDealerRightClickedOnEntity;
-import net.mcreator.chilecraft.item.ItemMilpesos;
+import net.mcreator.chilecraft.item.ItemBaltica;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 
 import java.util.Map;
-import java.util.Iterator;
 import java.util.HashMap;
-import java.util.ArrayList;
 
 @ElementsChileanCraftMod.ModElement.Tag
 public class EntityDealer extends ElementsChileanCraftMod.ModElement {
@@ -53,12 +54,13 @@ public class EntityDealer extends ElementsChileanCraftMod.ModElement {
 						.name("aldeanodealer").tracker(64, 3, true).egg(-13421773, -10066330).build());
 	}
 
-	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
-		Iterator<Biome> itr = in.iterator();
-		ArrayList<Biome> ls = new ArrayList<Biome>();
-		while (itr.hasNext())
-			ls.add(itr.next());
-		return ls.toArray(new Biome[ls.size()]);
+	@Override
+	public void init(FMLInitializationEvent event) {
+		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("plains")),
+				Biome.REGISTRY.getObject(new ResourceLocation("extreme_hills")), Biome.REGISTRY.getObject(new ResourceLocation("taiga")),
+				Biome.REGISTRY.getObject(new ResourceLocation("extreme_hills")), Biome.REGISTRY.getObject(new ResourceLocation("desert")),
+				Biome.REGISTRY.getObject(new ResourceLocation("ice_flats")),};
+		EntityRegistry.addSpawn(EntityCustom.class, 1, 1, 1, EnumCreatureType.MONSTER, spawnBiomes);
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -107,7 +109,7 @@ public class EntityDealer extends ElementsChileanCraftMod.ModElement {
 
 		@Override
 		protected Item getDropItem() {
-			return new ItemStack(ItemMilpesos.block, (int) (1)).getItem();
+			return new ItemStack(ItemBaltica.block, (int) (1)).getItem();
 		}
 
 		@Override
