@@ -1,5 +1,5 @@
 {
-  "parent": "chilean_craft:custom/modelbanderamapu_-_copia",
+  "parent": "chilean_craft:custom/modelbandera",
   "textures": {
     "all": "chilean_craft:blocks/chile",
     "particle": "chilean_craft:blocks/chile",
