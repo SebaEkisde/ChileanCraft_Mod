@@ -24,6 +24,18 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.mcreator.chilecraft.item.ItemTremilpesoso;
+import net.mcreator.chilecraft.item.ItemPesos5000;
+import net.mcreator.chilecraft.item.ItemPesos20000;
+import net.mcreator.chilecraft.item.ItemPesos2000;
+import net.mcreator.chilecraft.item.ItemPesos200;
+import net.mcreator.chilecraft.item.ItemPesos1500;
+import net.mcreator.chilecraft.item.ItemPesos10000;
+import net.mcreator.chilecraft.item.ItemMoneda500;
+import net.mcreator.chilecraft.item.ItemMoneda50;
+import net.mcreator.chilecraft.item.ItemMoneda100;
+import net.mcreator.chilecraft.item.ItemMoneda10;
+import net.mcreator.chilecraft.item.ItemMilpesos;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 import net.mcreator.chilecraft.ChileanCraftMod;
 
@@ -58,23 +70,89 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 3);
+			this.internal = new InventoryBasic("", true, 12);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 81, 40) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 11, 16) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda10.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 63, 39) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 47, 15) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda50.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 99, 40) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 83, 15) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda100.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 119, 16) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos200.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 155, 16) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda500.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 10, 44) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMilpesos.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 47, 45) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos1500.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 82, 44) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos2000.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 118, 45) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemTremilpesoso.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 154, 44) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos5000.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 10, 66) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos10000.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 154, 66) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos20000.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 2 + 8 + sj * 18, 3 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 2 + 8 + si * 18, 3 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -93,18 +171,18 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 12) {
+					if (!this.mergeItemStack(itemstack1, 12, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 12, false)) {
+					if (index < 12 + 27) {
+						if (!this.mergeItemStack(itemstack1, 12 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 12, 12 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -233,8 +311,8 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 176;
-			this.ySize = 166;
+			this.xSize = 179;
+			this.ySize = 172;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("chilean_craft:textures/monedero.png");
 		@Override
@@ -271,6 +349,19 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
+			this.fontRenderer.drawString("10", 13, 5, -1);
+			this.fontRenderer.drawString("50", 50, 5, -1);
+			this.fontRenderer.drawString("100", 83, 5, -1);
+			this.fontRenderer.drawString("200", 119, 4, -1);
+			this.fontRenderer.drawString("500", 157, 5, -1);
+			this.fontRenderer.drawString("1000", 8, 34, -1);
+			this.fontRenderer.drawString("1500", 43, 34, -1);
+			this.fontRenderer.drawString("2000", 81, 34, -1);
+			this.fontRenderer.drawString("3000", 117, 34, -1);
+			this.fontRenderer.drawString("5000", 152, 34, -1);
+			this.fontRenderer.drawString("10000", 29, 68, -1);
+			this.fontRenderer.drawString("20000", 126, 68, -1);
+			this.fontRenderer.drawString("monedero", 72, -19, -1);
 		}
 
 		@Override
@@ -282,8 +373,8 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 176) / 2;
-			this.guiTop = (this.height - 166) / 2;
+			this.guiLeft = (this.width - 179) / 2;
+			this.guiTop = (this.height - 172) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
 		}

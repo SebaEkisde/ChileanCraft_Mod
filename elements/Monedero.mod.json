@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 352,
-    "height": 332,
+    "width": 357,
+    "height": 344,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -12,42 +12,337 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Moneda10"
           },
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 410,
-          "y": 151
+          "x": 267,
+          "y": 97
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Moneda50"
           },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 374,
-          "y": 150
+          "x": 339,
+          "y": 96
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Moneda100"
           },
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 446,
-          "y": 151
+          "x": 412,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos200"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 483,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 274,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "50",
+          "x": 347,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "100",
+          "x": 414,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "200",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "200",
+          "x": 485,
+          "y": 76
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Moneda500"
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 555,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "500",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "500",
+          "x": 561,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Milpesos"
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 266,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1000",
+          "x": 264,
+          "y": 135
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos1500"
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 339,
+          "y": 155
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos2000"
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 410,
+          "y": 154
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Tremilpesoso"
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 482,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1500",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1500",
+          "x": 334,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "2000",
+          "x": 409,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "3000",
+          "x": 481,
+          "y": 135
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos5000"
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 554,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "5000",
+          "x": 552,
+          "y": 135
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos10000"
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 266,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "10000",
+          "x": 305,
+          "y": 203
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pesos20000"
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #11",
+          "x": 554,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "20000",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "20000",
+          "x": 500,
+          "y": 203
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "monedero",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "monedero",
+          "x": 392,
+          "y": 30
         }
       }
     ]
