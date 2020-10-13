@@ -19,18 +19,18 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import net.mcreator.chilecraft.procedure.ProcedureMonederooRightClickedInAir;
+import net.mcreator.chilecraft.procedure.ProcedureMone2;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 
 import java.util.Map;
 import java.util.HashMap;
 
 @ElementsChileanCraftMod.ModElement.Tag
-public class ItemMonederoo extends ElementsChileanCraftMod.ModElement {
-	@GameRegistry.ObjectHolder("chilean_craft:monederoo")
+public class ItemMohilapappi extends ElementsChileanCraftMod.ModElement {
+	@GameRegistry.ObjectHolder("chilean_craft:mohilapappi")
 	public static final Item block = null;
-	public ItemMonederoo(ElementsChileanCraftMod instance) {
-		super(instance, 813);
+	public ItemMohilapappi(ElementsChileanCraftMod instance) {
+		super(instance, 818);
 	}
 
 	@Override
@@ -41,14 +41,14 @@ public class ItemMonederoo extends ElementsChileanCraftMod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("chilean_craft:monederoo", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("chilean_craft:mohilapappi", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 1;
-			setUnlocalizedName("monederoo");
-			setRegistryName("monederoo");
+			setUnlocalizedName("mohilapappi");
+			setRegistryName("mohilapappi");
 			setCreativeTab(null);
 		}
 
@@ -81,7 +81,7 @@ public class ItemMonederoo extends ElementsChileanCraftMod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureMonederooRightClickedInAir.executeProcedure($_dependencies);
+				ProcedureMone2.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
@@ -101,7 +101,7 @@ public class ItemMonederoo extends ElementsChileanCraftMod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureMonederooRightClickedInAir.executeProcedure($_dependencies);
+				ProcedureMone2.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

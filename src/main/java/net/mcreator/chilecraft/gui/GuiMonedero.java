@@ -360,7 +360,7 @@ public class GuiMonedero extends ElementsChileanCraftMod.ModElement {
 			this.fontRenderer.drawString("3000", 117, 34, -1);
 			this.fontRenderer.drawString("5000", 152, 34, -1);
 			this.fontRenderer.drawString("10000", 29, 68, -1);
-			this.fontRenderer.drawString("20000", 126, 68, -1);
+			this.fontRenderer.drawString("20000", 125, 67, -1);
 			this.fontRenderer.drawString("monedero", 72, -19, -1);
 		}
 

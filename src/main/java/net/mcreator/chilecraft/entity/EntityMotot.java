@@ -11,6 +11,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
@@ -27,9 +28,11 @@ import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelBase;
 
+import net.mcreator.chilecraft.procedure.ProcedureMototRightClickedOnEntity;
 import net.mcreator.chilecraft.procedure.ProcedureMototOnEntityTickUpdate;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 
+import java.util.Random;
 import java.util.Map;
 import java.util.Iterator;
 import java.util.HashMap;
@@ -105,12 +108,12 @@ public class EntityMotot extends ElementsChileanCraftMod.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.generic.hurt"));
+			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(""));
 		}
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.generic.death"));
+			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(""));
 		}
 
 		@Override
@@ -137,6 +140,10 @@ public class EntityMotot extends ElementsChileanCraftMod.ModElement {
 			int y = (int) this.posY;
 			int z = (int) this.posZ;
 			ItemStack itemstack = entity.getHeldItem(hand);
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ProcedureMototRightClickedOnEntity.executeProcedure($_dependencies);
+			}
 			return true;
 		}
 
@@ -157,9 +164,9 @@ public class EntityMotot extends ElementsChileanCraftMod.ModElement {
 		protected void applyEntityAttributes() {
 			super.applyEntityAttributes();
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0.9D);
+				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(1D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.7999999999999999D);
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.5D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
@@ -217,6 +224,25 @@ public class EntityMotot extends ElementsChileanCraftMod.ModElement {
 			this.stepHeight = 0.5F;
 			this.jumpMovementFactor = 0.02F;
 			super.travel(ti, tj, tk);
+		}
+
+		public void onLivingUpdate() {
+			super.onLivingUpdate();
+			int i = (int) this.posX;
+			int j = (int) this.posY;
+			int k = (int) this.posZ;
+			Random random = this.rand;
+			if (true)
+				for (int l = 0; l < 1; ++l) {
+					double d0 = (i + random.nextFloat());
+					double d1 = (j + random.nextFloat());
+					double d2 = (k + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.4000000014901161D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.4000000014901161D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.4000000014901161D;
+					world.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0, d1, d2, d3, d4, d5);
+				}
 		}
 	}
 

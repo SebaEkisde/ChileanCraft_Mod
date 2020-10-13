@@ -24,10 +24,15 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.mcreator.chilecraft.procedure.ProcedureTulaButtonAHGuiClickOnIt;
-import net.mcreator.chilecraft.procedure.ProcedureSe;
-import net.mcreator.chilecraft.procedure.ProcedurePalya;
-import net.mcreator.chilecraft.procedure.ProcedureAHReturnGui1;
+import net.mcreator.chilecraft.item.ItemTremilpesoso;
+import net.mcreator.chilecraft.item.ItemPesos2000;
+import net.mcreator.chilecraft.item.ItemPesos200;
+import net.mcreator.chilecraft.item.ItemPesos1500;
+import net.mcreator.chilecraft.item.ItemMoneda500;
+import net.mcreator.chilecraft.item.ItemMoneda50;
+import net.mcreator.chilecraft.item.ItemMoneda100;
+import net.mcreator.chilecraft.item.ItemMoneda10;
+import net.mcreator.chilecraft.item.ItemMilpesos;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 import net.mcreator.chilecraft.ChileanCraftMod;
 
@@ -38,11 +43,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsChileanCraftMod.ModElement.Tag
-public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
-	public static int GUIID = 11;
+public class GuiPappi extends ElementsChileanCraftMod.ModElement {
+	public static int GUIID = 21;
 	public static HashMap guistate = new HashMap();
-	public GuiAldeanoHaitianoGui2(ElementsChileanCraftMod instance) {
-		super(instance, 531);
+	public GuiPappi(ElementsChileanCraftMod instance) {
+		super(instance, 816);
 	}
 
 	@Override
@@ -62,10 +67,64 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 0);
+			this.internal = new InventoryBasic("", true, 9);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 99, 24) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda10.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 63, 60) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda50.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 81, 61) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda100.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 63, 24) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos200.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 99, 61) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMoneda500.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 81, 24) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemMilpesos.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 99, 41) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos1500.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 81, 41) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemPesos2000.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 63, 41) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(ItemTremilpesoso.block, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -91,18 +150,18 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 0) {
-					if (!this.mergeItemStack(itemstack1, 0, this.inventorySlots.size(), true)) {
+				if (index < 9) {
+					if (!this.mergeItemStack(itemstack1, 9, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 0, false)) {
-					if (index < 0 + 27) {
-						if (!this.mergeItemStack(itemstack1, 0 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 9, false)) {
+					if (index < 9 + 27) {
+						if (!this.mergeItemStack(itemstack1, 9 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 0, 0 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 9, 9 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -234,7 +293,7 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("chilean_craft:textures/aldeanohaitianogui2.png");
+		private static final ResourceLocation texture = new ResourceLocation("chilean_craft:textures/pappi.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -269,9 +328,7 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("1x1000 pesos", 62, 37, -1);
-			this.fontRenderer.drawString("1x500 pesos", 49, 15, -1);
-			this.fontRenderer.drawString("1x200", 123, 59, -1);
+			this.fontRenderer.drawString("mochila ", 70, 11, -1);
 		}
 
 		@Override
@@ -287,10 +344,6 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 7, this.guiTop + 56, 20, 20, "<"));
-			this.buttonList.add(new GuiButton(1, this.guiLeft + 7, this.guiTop + 11, 40, 20, "Tula"));
-			this.buttonList.add(new GuiButton(2, this.guiLeft + 7, this.guiTop + 34, 50, 20, "Palta"));
-			this.buttonList.add(new GuiButton(3, this.guiLeft + 29, this.guiTop + 56, 90, 20, "serranita"));
 		}
 
 		@Override
@@ -405,38 +458,6 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureAHReturnGui1.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 1) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureTulaButtonAHGuiClickOnIt.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 2) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedurePalya.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 3) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureSe.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {

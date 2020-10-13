@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "monedero",
+    "texture": "rappi",
     "customModelName": "Normal",
-    "name": "Monederoo",
+    "name": "Mochila pappi",
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -21,14 +21,14 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "Monedero",
-    "inventorySize": 12,
+    "guiBoundTo": "Pappi",
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "MonederooRightClickedInAir"
+      "name": "Mone2"
     },
     "onRightClickedOnBlock": {
-      "name": "MonederooRightClickedInAir"
+      "name": "Mone2"
     }
   }
 }

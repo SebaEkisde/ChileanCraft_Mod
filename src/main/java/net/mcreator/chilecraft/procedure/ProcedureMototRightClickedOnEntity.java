@@ -5,9 +5,9 @@ import net.mcreator.chilecraft.ElementsChileanCraftMod;
 import java.util.Map;
 
 @ElementsChileanCraftMod.ModElement.Tag
-public class ProcedureMototOnEntityTickUpdate extends ElementsChileanCraftMod.ModElement {
-	public ProcedureMototOnEntityTickUpdate(ElementsChileanCraftMod instance) {
-		super(instance, 795);
+public class ProcedureMototRightClickedOnEntity extends ElementsChileanCraftMod.ModElement {
+	public ProcedureMototRightClickedOnEntity(ElementsChileanCraftMod instance) {
+		super(instance, 823);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
