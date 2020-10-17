@@ -2,6 +2,21 @@
   "variants": {
     "normal": {
       "model": "chilean_craft:bandera_mapuche"
+    },
+    "facing=north": {
+      "model": "chilean_craft:bandera_mapuche"
+    },
+    "facing=east": {
+      "model": "chilean_craft:bandera_mapuche",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chilean_craft:bandera_mapuche",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chilean_craft:bandera_mapuche",
+      "y": 270
     }
   }
 }

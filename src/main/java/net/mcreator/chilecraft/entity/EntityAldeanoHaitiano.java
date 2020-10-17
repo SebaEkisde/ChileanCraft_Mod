@@ -67,7 +67,7 @@ public class EntityAldeanoHaitiano extends ElementsChileanCraftMod.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderLiving customRender = new RenderLiving(renderManager, new ModelVillager(0.0F), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("chilean_craft:textures/ahitoian.png");
+					return new ResourceLocation("chilean_craft:textures/aitiano.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerHeldItem(customRender));

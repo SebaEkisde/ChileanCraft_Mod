@@ -17,8 +17,8 @@ import net.minecraft.entity.Entity;
 import net.mcreator.chilecraft.item.ItemPesos200;
 import net.mcreator.chilecraft.item.ItemMoneda500;
 import net.mcreator.chilecraft.item.ItemCuajo;
-import net.mcreator.chilecraft.entity.EntityFlaitedia;
 import net.mcreator.chilecraft.entity.EntityFlaite;
+import net.mcreator.chilecraft.entity.EntityCabra;
 import net.mcreator.chilecraft.entity.EntityAldeanoMotemei;
 import net.mcreator.chilecraft.entity.EntityAldeanoHuaso;
 import net.mcreator.chilecraft.entity.EntityAldeanoHaitiano;
@@ -98,7 +98,7 @@ public class ProcedureLlamaa extends ElementsChileanCraftMod.ModElement {
 		}
 		if (((entity instanceof EntityVillager) || ((entity instanceof EntityAldeanoHaitiano.EntityCustom)
 				|| ((entity instanceof EntityFlaite.EntityCustom) || ((entity instanceof EntityAldeanoHuaso.EntityCustom)
-						|| ((entity instanceof EntityFlaitedia.EntityCustom) || (entity instanceof EntityAldeanoMotemei.EntityCustom))))))) {
+						|| ((entity instanceof EntityCabra.EntityCustom) || (entity instanceof EntityAldeanoMotemei.EntityCustom))))))) {
 			if ((Math.random() > 0.8)) {
 				if ((Math.random() > 0.8)) {
 					if (!world.isRemote) {

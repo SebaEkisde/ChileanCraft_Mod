@@ -13,6 +13,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIOpenDoor;
@@ -22,7 +23,6 @@ import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureAttribute;
-import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
@@ -74,7 +74,7 @@ public class EntityFlaitecolo extends ElementsChileanCraftMod.ModElement {
 			return customRender;
 		});
 	}
-	public static class EntityCustom extends EntityCreature {
+	public static class EntityCustom extends EntityMob {
 		public EntityCustom(World world) {
 			super(world);
 			setSize(0.6f, 1.8f);

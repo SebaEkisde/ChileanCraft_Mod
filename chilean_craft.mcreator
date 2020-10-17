@@ -7042,17 +7042,6 @@
       "ids": {}
     },
     {
-      "name": "Flaitedia",
-      "type": "mob",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 50,
-        "1": 51
-      }
-    },
-    {
       "name": "Tikitkiti",
       "type": "achievement",
       "sortid": 623,
@@ -10695,6 +10684,72 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "ReinetaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 824,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reineta_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReinetaOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 825,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reineta_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10907,7 +10962,6 @@
       "item.chilean_craft.unimarchelmet": "Unimarc Helmet",
       "tile.p2.name": "Parra",
       "item.chilean_craft.taza2": "Taza de greda cocida",
-      "entity.flaitedia.name": "Flaite",
       "item.chilean_craft.moneda100": "Moneda de 100",
       "item.chilean_craft.matapacosatack": "Matapacos Spawn Egg",
       "item.chilean_craft.tromo_4": "Trompo Spawn Egg",

@@ -50,7 +50,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 				if ((Math.random() >= 0.5)) {
 					if (!world.isRemote) {
 						Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-								new ResourceLocation("chilean_craft", "ara1"));
+								new ResourceLocation("chilean_craft", "ar1"));
 						if (template != null) {
 							BlockPos spawnTo = new BlockPos((int) (x - 4), (int) y, (int) (z - 4));
 							IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -63,7 +63,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 				} else {
 					if (!world.isRemote) {
 						Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-								new ResourceLocation("chilean_craft", "ara2"));
+								new ResourceLocation("chilean_craft", "ar2"));
 						if (template != null) {
 							BlockPos spawnTo = new BlockPos((int) (x - 4), (int) y, (int) (z - 4));
 							IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -78,7 +78,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 				if ((Math.random() >= 0.5)) {
 					if (!world.isRemote) {
 						Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-								new ResourceLocation("chilean_craft", "ara3"));
+								new ResourceLocation("chilean_craft", "ar3"));
 						if (template != null) {
 							BlockPos spawnTo = new BlockPos((int) (x - 4), (int) y, (int) (z - 4));
 							IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -92,7 +92,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 					if ((Math.random() < 0.5)) {
 						if (!world.isRemote) {
 							Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-									new ResourceLocation("chilean_craft", "ara1"));
+									new ResourceLocation("chilean_craft", "ar4"));
 							if (template != null) {
 								BlockPos spawnTo = new BlockPos((int) (x - 4), (int) (y + 3), (int) (z - 4));
 								IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -108,7 +108,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 					} else {
 						if (!world.isRemote) {
 							Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-									new ResourceLocation("chilean_craft", "ara2"));
+									new ResourceLocation("chilean_craft", "ar1"));
 							if (template != null) {
 								BlockPos spawnTo = new BlockPos((int) (x - 4), (int) (y + 5), (int) (z - 4));
 								IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -130,7 +130,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 			if ((Math.random() < 0.5)) {
 				if (!world.isRemote) {
 					Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-							new ResourceLocation("chilean_craft", "ara3"));
+							new ResourceLocation("chilean_craft", "ar2"));
 					if (template != null) {
 						BlockPos spawnTo = new BlockPos((int) (x - 4), (int) (y + 6), (int) (z - 4));
 						IBlockState iblockstate = world.getBlockState(spawnTo);
@@ -148,7 +148,7 @@ public class ProcedureArqaucaiaa extends ElementsChileanCraftMod.ModElement {
 			} else {
 				if (!world.isRemote) {
 					Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-							new ResourceLocation("chilean_craft", "ara7"));
+							new ResourceLocation("chilean_craft", "ar3"));
 					if (template != null) {
 						BlockPos spawnTo = new BlockPos((int) (x - 4), (int) (y + 3), (int) (z - 4));
 						IBlockState iblockstate = world.getBlockState(spawnTo);
