@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "potoesmeralda",
+    "structure": "ptoesmeralda",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 500,
@@ -35,9 +35,6 @@
         "value": "warm_ocean"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
-    "onStructureGenerated": {
-      "name": "BarvoesmeraldaOnStructureInstanceGenerated"
-    }
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }
