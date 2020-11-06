@@ -17,12 +17,9 @@ import net.minecraft.init.Blocks;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.chilecraft.procedure.ProcedureBarvoesmeraldaOnStructureInstanceGenerated;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
 
 import java.util.Random;
-import java.util.Map;
-import java.util.HashMap;
 
 @ElementsChileanCraftMod.ModElement.Tag
 public class StructureBarvoesmeralda extends ElementsChileanCraftMod.ModElement {
@@ -96,7 +93,7 @@ public class StructureBarvoesmeralda extends ElementsChileanCraftMod.ModElement 
 				if (world.isRemote)
 					return;
 				Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-						new ResourceLocation("chilean_craft", "potoesmeralda"));
+						new ResourceLocation("chilean_craft", "ptoesmeralda"));
 				if (template == null)
 					return;
 				Rotation rotation = Rotation.NONE;
@@ -106,17 +103,6 @@ public class StructureBarvoesmeralda extends ElementsChileanCraftMod.ModElement 
 				world.notifyBlockUpdate(spawnTo, iblockstate, iblockstate, 3);
 				template.addBlocksToWorldChunk(world, spawnTo, new PlacementSettings().setRotation(rotation).setMirror(mirror)
 						.setChunk((ChunkPos) null).setReplacedBlock((Block) null).setIgnoreStructureBlock(false).setIgnoreEntities(false));
-				int x = spawnTo.getX();
-				int y = spawnTo.getY();
-				int z = spawnTo.getZ();
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					ProcedureBarvoesmeraldaOnStructureInstanceGenerated.executeProcedure($_dependencies);
-				}
 			}
 		}
 	}

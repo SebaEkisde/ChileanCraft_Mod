@@ -75,6 +75,33 @@
           "x": 349,
           "y": 104
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "serranita",
+          "onClick": {
+            "name": "Se"
+          },
+          "width": 180,
+          "height": 40,
+          "name": "serranita",
+          "x": 308,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x200",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "1x200",
+          "x": 496,
+          "y": 192
+        }
       }
     ]
   }

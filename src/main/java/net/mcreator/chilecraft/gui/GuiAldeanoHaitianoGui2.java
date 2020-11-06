@@ -25,6 +25,7 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
 import net.mcreator.chilecraft.procedure.ProcedureTulaButtonAHGuiClickOnIt;
+import net.mcreator.chilecraft.procedure.ProcedureSe;
 import net.mcreator.chilecraft.procedure.ProcedurePalya;
 import net.mcreator.chilecraft.procedure.ProcedureAHReturnGui1;
 import net.mcreator.chilecraft.ElementsChileanCraftMod;
@@ -270,6 +271,7 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
 			this.fontRenderer.drawString("1x1000 pesos", 62, 37, -1);
 			this.fontRenderer.drawString("1x500 pesos", 49, 15, -1);
+			this.fontRenderer.drawString("1x200", 123, 59, -1);
 		}
 
 		@Override
@@ -288,6 +290,7 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 			this.buttonList.add(new GuiButton(0, this.guiLeft + 7, this.guiTop + 56, 20, 20, "<"));
 			this.buttonList.add(new GuiButton(1, this.guiLeft + 7, this.guiTop + 11, 40, 20, "Tula"));
 			this.buttonList.add(new GuiButton(2, this.guiLeft + 7, this.guiTop + 34, 50, 20, "Palta"));
+			this.buttonList.add(new GuiButton(3, this.guiLeft + 29, this.guiTop + 56, 90, 20, "serranita"));
 		}
 
 		@Override
@@ -425,6 +428,13 @@ public class GuiAldeanoHaitianoGui2 extends ElementsChileanCraftMod.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedurePalya.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 3) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureSe.executeProcedure($_dependencies);
 			}
 		}
 	}

@@ -1,27 +1,8 @@
 package net.mcreator.chilecraft.procedure;
 
-import net.minecraftforge.fml.common.FMLCommonHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.TextComponentString;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.item.EntityItem;
-
-import net.mcreator.chilecraft.item.ItemParticulador;
-import net.mcreator.chilecraft.item.ItemFunaor;
-import net.mcreator.chilecraft.block.BlockCopperblockcoaled;
-import net.mcreator.chilecraft.block.BlockCopperblock;
-import net.mcreator.chilecraft.block.BlockBrdisds;
-import net.mcreator.chilecraft.block.BlockAraucaria;
-import net.mcreator.chilecraft.ElementsChileanCraftMod;
-import net.mcreator.chilecraft.ChileanCraftModVariables;
-
-import java.util.Map;
-
 @ElementsChileanCraftMod.ModElement.Tag
 public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraftMod.ModElement {
+
 	public ProcedureAdminblockOnBlockRightClicked(ElementsChileanCraftMod instance) {
 		super(instance, 736);
 	}
@@ -43,10 +24,12 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 			System.err.println("Failed to load dependency world for procedure AdminblockOnBlockRightClicked!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockCopperblock.block.getDefaultState()
 				.getBlock())) {
 			ChileanCraftModVariables.WorldVariables.get(world).metro1 = (double) x;
@@ -94,5 +77,7 @@ public class ProcedureAdminblockOnBlockRightClicked extends ElementsChileanCraft
 				world.spawnEntity(entityToSpawn);
 			}
 		}
+
 	}
+
 }

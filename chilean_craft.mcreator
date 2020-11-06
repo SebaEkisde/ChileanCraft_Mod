@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 19,
+    "GUI": 21,
     "ENTITY": 108
   },
   "mod_elements": [
@@ -7084,17 +7084,6 @@
       "ids": {}
     },
     {
-      "name": "Flaitedia",
-      "type": "mob",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 50,
-        "1": 51
-      }
-    },
-    {
       "name": "Tikitkiti",
       "type": "achievement",
       "sortid": 623,
@@ -9384,16 +9373,12 @@
       "name": "AdminblockOnBlockRightClicked",
       "type": "procedure",
       "sortid": 736,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "adminblock_on_block_right_clicked",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -10137,7 +10122,7 @@
       "name": "BanderaMapuche",
       "type": "block",
       "sortid": 789,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bandera_mapuche"
@@ -10146,7 +10131,7 @@
       "name": "FunaorLivingEntityIsHitWithItem",
       "type": "procedure",
       "sortid": 792,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "funaor_living_entity_is_hit_with_item",
@@ -10179,7 +10164,7 @@
       "name": "Panuleorojo",
       "type": "armor",
       "sortid": 791,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "panuleorojo",
@@ -10191,30 +10176,10 @@
       }
     },
     {
-      "name": "Rappi",
-      "type": "gui",
-      "sortid": 798,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 19
-      },
-      "registry_name": "rappi"
-    },
-    {
-      "name": "Rapi",
-      "type": "block",
-      "sortid": 798,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rapi"
-    },
-    {
       "name": "ParticuladorRightClickedOnBlock",
       "type": "procedure",
       "sortid": 797,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "particulador_right_clicked_on_block",
@@ -10247,7 +10212,7 @@
       "name": "Funaor",
       "type": "item",
       "sortid": 792,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "funaor"
@@ -10256,7 +10221,7 @@
       "name": "Particulaa",
       "type": "procedure",
       "sortid": 793,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "particulaa",
@@ -10289,7 +10254,7 @@
       "name": "Banderachile",
       "type": "block",
       "sortid": 790,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "banderachile"
@@ -10298,7 +10263,7 @@
       "name": "MototOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 795,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "motot_on_entity_tick_update",
@@ -10310,7 +10275,7 @@
       "name": "ParticuladorItemInInventoryTick",
       "type": "procedure",
       "sortid": 796,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "particulador_item_in_inventory_tick",
@@ -10319,6 +10284,499 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MototRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 823,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motot_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Rew",
+      "type": "recipe",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rew"
+    },
+    {
+      "name": "Rbanderoa",
+      "type": "recipe",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rbanderoa"
+    },
+    {
+      "name": "Baltica",
+      "type": "food",
+      "sortid": 814,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baltica"
+    },
+    {
+      "name": "R2000",
+      "type": "recipe",
+      "sortid": 802,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_2000"
+    },
+    {
+      "name": "Pesos20000",
+      "type": "item",
+      "sortid": 801,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pesos_20000"
+    },
+    {
+      "name": "Tocafuna",
+      "type": "procedure",
+      "sortid": 810,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tocafuna",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Comama",
+      "type": "procedure",
+      "sortid": 811,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comama",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pesos2000",
+      "type": "item",
+      "sortid": 799,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pesos_2000"
+    },
+    {
+      "name": "R200000",
+      "type": "recipe",
+      "sortid": 804,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_200000"
+    },
+    {
+      "name": "MilpesosRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 808,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milpesos_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R434",
+      "type": "recipe",
+      "sortid": 806,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_434"
+    },
+    {
+      "name": "FunaorRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 809,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "funaor_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mone2",
+      "type": "procedure",
+      "sortid": 817,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mone_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R10000",
+      "type": "recipe",
+      "sortid": 803,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_10000"
+    },
+    {
+      "name": "Mohilapappi",
+      "type": "item",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mohilapappi"
+    },
+    {
+      "name": "R1000",
+      "type": "recipe",
+      "sortid": 805,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_1000"
+    },
+    {
+      "name": "Pappi",
+      "type": "gui",
+      "sortid": 816,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 21
+      },
+      "registry_name": "pappi"
+    },
+    {
+      "name": "ReinetaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 824,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reineta_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReinetaOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 825,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reineta_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonederooRightClickedInAir",
+      "type": "procedure",
+      "sortid": 813,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monederoo_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Se",
+      "type": "procedure",
+      "sortid": 822,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "se",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Monedero",
+      "type": "gui",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 20
+      },
+      "registry_name": "monedero"
+    },
+    {
+      "name": "Monederoo",
+      "type": "item",
+      "sortid": 813,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monederoo"
+    },
+    {
+      "name": "Serranita",
+      "type": "food",
+      "sortid": 815,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "serranita"
+    },
+    {
+      "name": "BalticaFoodEaten",
+      "type": "procedure",
+      "sortid": 814,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baltica_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R342",
+      "type": "recipe",
+      "sortid": 807,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_342"
+    },
+    {
+      "name": "Pesos10000",
+      "type": "item",
+      "sortid": 800,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pesos_10000"
+    },
+    {
+      "name": "Rpanuelo",
+      "type": "recipe",
+      "sortid": 821,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rpanuelo"
+    },
+    {
+      "name": "Fefe",
+      "type": "procedure",
+      "sortid": 812,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fefe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
           },
           {
             "name": "x",

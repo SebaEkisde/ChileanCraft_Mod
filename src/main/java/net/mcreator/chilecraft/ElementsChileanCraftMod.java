@@ -42,7 +42,9 @@ import net.mcreator.chilecraft.gui.GuiTinajaIN;
 import net.mcreator.chilecraft.gui.GuiTianajgrnde;
 import net.mcreator.chilecraft.gui.GuiPipek;
 import net.mcreator.chilecraft.gui.GuiParrillagui;
+import net.mcreator.chilecraft.gui.GuiPappi;
 import net.mcreator.chilecraft.gui.GuiOlaa;
+import net.mcreator.chilecraft.gui.GuiMonedero;
 import net.mcreator.chilecraft.gui.GuiHuaso2;
 import net.mcreator.chilecraft.gui.GuiDealerguui;
 import net.mcreator.chilecraft.gui.GuiCHANCHO;
@@ -203,8 +205,10 @@ public class ElementsChileanCraftMod implements IFuelHandler, IWorldGenerator {
 				return new GuiTioaceitregui2.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiDealerguui.GUIID)
 				return new GuiDealerguui.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiRappi.GUIID)
-				return new GuiRappi.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiPappi.GUIID)
+				return new GuiPappi.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiMonedero.GUIID)
+				return new GuiMonedero.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -242,8 +246,10 @@ public class ElementsChileanCraftMod implements IFuelHandler, IWorldGenerator {
 				return new GuiTioaceitregui2.GuiWindow(world, x, y, z, player);
 			if (id == GuiDealerguui.GUIID)
 				return new GuiDealerguui.GuiWindow(world, x, y, z, player);
-			if (id == GuiRappi.GUIID)
-				return new GuiRappi.GuiWindow(world, x, y, z, player);
+			if (id == GuiPappi.GUIID)
+				return new GuiPappi.GuiWindow(world, x, y, z, player);
+			if (id == GuiMonedero.GUIID)
+				return new GuiMonedero.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

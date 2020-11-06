@@ -71,7 +71,7 @@ public class StructureTumba extends ElementsChileanCraftMod.ModElement {
 				if (world.isRemote)
 					return;
 				Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-						new ResourceLocation("chilean_craft", "tumba"));
+						new ResourceLocation("chilean_craft", "tumba2"));
 				if (template == null)
 					return;
 				Rotation rotation = Rotation.values()[random.nextInt(3)];

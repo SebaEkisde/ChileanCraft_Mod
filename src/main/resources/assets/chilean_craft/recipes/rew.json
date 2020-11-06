@@ -1,0 +1,45 @@
+{
+  "group": "chilean_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:fence"
+    },
+    "4": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 4
+    },
+    "6": {
+      "item": "minecraft:fence"
+    },
+    "7": {
+      "item": "minecraft:wool",
+      "data": 3
+    },
+    "8": {
+      "item": "minecraft:wool",
+      "data": 5
+    }
+  },
+  "result": {
+    "item": "chilean_craft:bandera_mapuche",
+    "count": 1
+  }
+}

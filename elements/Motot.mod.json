@@ -47,14 +47,14 @@
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 0,
-    "movementSpeed": 0.7999999999999999,
-    "armorBaseValue": 0.9,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 1.0,
     "trackingRange": 64,
     "health": 30,
     "xpAmount": 0,
     "waterMob": true,
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "Pappi",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -76,21 +76,24 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": ""
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": ""
     },
     "stepSound": {
       "value": ""
     },
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SMOKE_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 0.4000000014901161,
+    "particleAmount": 1,
+    "onRightClickedOn": {
+      "name": "MototRightClickedOnEntity"
+    },
     "onMobTickUpdate": {
       "name": "MototOnEntityTickUpdate"
     },

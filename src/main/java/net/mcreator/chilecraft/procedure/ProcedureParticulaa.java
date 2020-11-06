@@ -1,8 +1,16 @@
 package net.mcreator.chilecraft.procedure;
 
+import net.minecraft.world.WorldServer;
+import net.minecraft.world.World;
+import net.minecraft.util.EnumParticleTypes;
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.chilecraft.ElementsChileanCraftMod;
+
+import java.util.Map;
+
 @ElementsChileanCraftMod.ModElement.Tag
 public class ProcedureParticulaa extends ElementsChileanCraftMod.ModElement {
-
 	public ProcedureParticulaa(ElementsChileanCraftMod instance) {
 		super(instance, 793);
 	}
@@ -28,13 +36,11 @@ public class ProcedureParticulaa extends ElementsChileanCraftMod.ModElement {
 			System.err.println("Failed to load dependency world for procedure Particulaa!");
 			return;
 		}
-
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((((itemstack).hasTagCompound() && (itemstack).getTagCompound().getBoolean("flame")) == (true))) {
 			if (world instanceof WorldServer)
 				((WorldServer) world).spawnParticle(EnumParticleTypes.FLAME, x, (y + 1), z, (int) 5, 3, 3, 3, 1, new int[0]);
@@ -59,7 +65,5 @@ public class ProcedureParticulaa extends ElementsChileanCraftMod.ModElement {
 			if (world instanceof WorldServer)
 				((WorldServer) world).spawnParticle(EnumParticleTypes.NOTE, x, (y + 1), z, (int) 5, 3, 3, 3, 1, new int[0]);
 		}
-
 	}
-
 }

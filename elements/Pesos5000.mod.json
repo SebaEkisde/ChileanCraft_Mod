@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "5000_pesos",
+    "texture": "2020-10-09-180542-5000_pesos",
     "customModelName": "Normal",
     "name": "5000 Pesos",
     "creativeTab": {
@@ -21,6 +21,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }
