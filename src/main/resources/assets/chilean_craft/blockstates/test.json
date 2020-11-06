@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=dandelion": {
-      "model": "chilean_craft:test"
-    }
-  }
-}
